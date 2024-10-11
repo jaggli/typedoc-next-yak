@@ -1,20 +1,21 @@
 // @ts-check
 import path from 'node:path';
+import fs from 'node:fs';
 import typedoc from 'typedoc';
 import { fileURLToPath } from 'node:url';
 
 const { Application, TypeDocReader } = typedoc;
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const rootDir = path.resolve(__dirname, '../../../');
+const rootDir = path.resolve(__dirname, "..");
 
 /**
  * Get typedoc for one file
  * @param {string} file
  */
-export const getTypedoc = async (file) => {
+export const getTypedoc = async (file)=> {
   const filePath = path.resolve(__dirname, file);
-
+  
   /** @type {typedoc.JSONOutput.ProjectReflection | null}  */
   let fileDocs = null;
 
@@ -29,7 +30,7 @@ export const getTypedoc = async (file) => {
       excludeInternal: false,
       excludeExternals: true,
       skipErrorChecking: true,
-      logLevel: 'Error',
+      logLevel: 'Warn',
     },
     // a subset of DEFAULT_READERS https://github.com/TypeStrong/typedoc/blob/f0f3d96f53ec0cc7767c21d6d5549305a986cdf0/src/lib/application.ts#L70
     [new TypeDocReader()]
@@ -50,6 +51,25 @@ export const getTypedoc = async (file) => {
   return fileDocs;
 };
 
-const docs = await getTypedoc('./Component.tsx');
+/**
+ * Find a named child
+ * @param {typedoc.JSONOutput.ProjectReflection | null} docs 
+ * @param {string} name 
+ */
+const findChild = (docs, name) => {
+  return docs?.children?.find(child => child.name === "Component")?.type
+}
 
-console.log(JSON.stringify(docs, null, 2));
+// Styled component
+const styledDocs = await getTypedoc('StyledComponent.ts');
+const styledFilename = path.resolve(rootDir, "./styled-output.json")
+fs.writeFileSync(styledFilename, JSON.stringify(styledDocs, null, 2));
+console.log("Wrote all styled docs to", styledFilename)
+console.log("Type of StyledComponent: \n\n ", findChild(styledDocs, "StyledComponent")?.type)
+
+// Yak component
+const yakDocs = await getTypedoc('YakComponent.ts');
+const yakFilename = path.resolve(rootDir, "./yak-output.json")
+fs.writeFileSync(styledFilename, JSON.stringify(styledDocs, null, 2));
+console.log("Wrote all yak docs to", styledFilename)
+console.log("Type of YakComponent: \n\n ", findChild(styledDocs, "YakComponent")?.type)

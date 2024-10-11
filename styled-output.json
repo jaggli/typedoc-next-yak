@@ -1,0 +1,142 @@
+{
+  "id": 0,
+  "name": "next-yak-typedoc",
+  "variant": "project",
+  "kind": 1,
+  "flags": {},
+  "children": [
+    {
+      "id": 1,
+      "name": "StyledComponent",
+      "variant": "declaration",
+      "kind": 64,
+      "flags": {},
+      "sources": [
+        {
+          "fileName": "src/StyledComponent.ts",
+          "line": 4,
+          "character": 13
+        }
+      ],
+      "signatures": [
+        {
+          "id": 2,
+          "name": "StyledComponent",
+          "variant": "signature",
+          "kind": 4096,
+          "flags": {},
+          "sources": [
+            {
+              "fileName": "src/StyledComponent.ts",
+              "line": 4,
+              "character": 13
+            }
+          ],
+          "typeParameters": [
+            {
+              "id": 3,
+              "name": "AsTarget",
+              "variant": "typeParam",
+              "kind": 131072,
+              "flags": {},
+              "type": {
+                "type": "intrinsic",
+                "name": "any"
+              },
+              "default": {
+                "type": "intrinsic",
+                "name": "void"
+              }
+            },
+            {
+              "id": 4,
+              "name": "ForwardedAsTarget",
+              "variant": "typeParam",
+              "kind": 131072,
+              "flags": {},
+              "type": {
+                "type": "intrinsic",
+                "name": "any"
+              },
+              "default": {
+                "type": "intrinsic",
+                "name": "void"
+              }
+            }
+          ],
+          "parameters": [
+            {
+              "id": 5,
+              "name": "props",
+              "variant": "param",
+              "kind": 32768,
+              "flags": {},
+              "type": {
+                "type": "intrinsic",
+                "name": "any"
+              }
+            }
+          ],
+          "type": {
+            "type": "reference",
+            "target": {
+              "sourceFileName": "",
+              "qualifiedName": "React.JSX.Element"
+            },
+            "name": "Element",
+            "qualifiedName": "React.JSX.Element"
+          }
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "title": "Functions",
+      "children": [
+        1
+      ]
+    }
+  ],
+  "packageName": "next-yak-typedoc",
+  "readme": [
+    {
+      "kind": "text",
+      "text": "# typedoc-next-yak\n\n[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak)"
+    }
+  ],
+  "symbolIdMap": {
+    "0": {
+      "sourceFileName": "src/StyledComponent.ts",
+      "qualifiedName": ""
+    },
+    "1": {
+      "sourceFileName": "src/StyledComponent.ts",
+      "qualifiedName": "StyledComponent"
+    },
+    "2": {
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "StyledComponent"
+    },
+    "3": {
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "AsTarget"
+    },
+    "4": {
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "ForwardedAsTarget"
+    },
+    "5": {
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "props"
+    }
+  },
+  "files": {
+    "entries": {
+      "1": "src/StyledComponent.ts"
+    },
+    "reflections": {
+      "1": 0
+    }
+  }
+}
