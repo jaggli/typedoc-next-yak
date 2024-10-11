@@ -6,6 +6,1595 @@
   "flags": {},
   "children": [
     {
+      "id": 10,
+      "name": "src/ComponentProps",
+      "variant": "declaration",
+      "kind": 2,
+      "flags": {},
+      "children": [
+        {
+          "id": 11,
+          "name": "ComponentProps",
+          "variant": "declaration",
+          "kind": 2097152,
+          "flags": {},
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Component Props"
+              }
+            ]
+          },
+          "sources": [
+            {
+              "fileName": "src/ComponentProps.ts",
+              "line": 8,
+              "character": 12,
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=8"
+            }
+          ],
+          "type": {
+            "type": "reflection",
+            "declaration": {
+              "id": 12,
+              "name": "__type",
+              "variant": "declaration",
+              "kind": 65536,
+              "flags": {},
+              "children": [
+                {
+                  "id": 26,
+                  "name": "arrayOfObjectsProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An array of objects prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 47,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=47"
+                    }
+                  ],
+                  "type": {
+                    "type": "array",
+                    "elementType": {
+                      "type": "reflection",
+                      "declaration": {
+                        "id": 27,
+                        "name": "__type",
+                        "variant": "declaration",
+                        "kind": 65536,
+                        "flags": {},
+                        "children": [
+                          {
+                            "id": 28,
+                            "name": "name",
+                            "variant": "declaration",
+                            "kind": 1024,
+                            "flags": {},
+                            "sources": [
+                              {
+                                "fileName": "src/ComponentProps.ts",
+                                "line": 47,
+                                "character": 26,
+                                "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=47"
+                              }
+                            ],
+                            "type": {
+                              "type": "intrinsic",
+                              "name": "string"
+                            }
+                          }
+                        ],
+                        "groups": [
+                          {
+                            "title": "Properties",
+                            "children": [
+                              28
+                            ]
+                          }
+                        ],
+                        "sources": [
+                          {
+                            "fileName": "src/ComponentProps.ts",
+                            "line": 47,
+                            "character": 24,
+                            "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=47"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": 29,
+                  "name": "arrayOfObjectsPropMulti",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An array of objects prop with multiple keys"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 52,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=52"
+                    }
+                  ],
+                  "type": {
+                    "type": "array",
+                    "elementType": {
+                      "type": "reflection",
+                      "declaration": {
+                        "id": 30,
+                        "name": "__type",
+                        "variant": "declaration",
+                        "kind": 65536,
+                        "flags": {},
+                        "children": [
+                          {
+                            "id": 32,
+                            "name": "active",
+                            "variant": "declaration",
+                            "kind": 1024,
+                            "flags": {},
+                            "sources": [
+                              {
+                                "fileName": "src/ComponentProps.ts",
+                                "line": 52,
+                                "character": 45,
+                                "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=52"
+                              }
+                            ],
+                            "type": {
+                              "type": "intrinsic",
+                              "name": "boolean"
+                            }
+                          },
+                          {
+                            "id": 31,
+                            "name": "name",
+                            "variant": "declaration",
+                            "kind": 1024,
+                            "flags": {},
+                            "sources": [
+                              {
+                                "fileName": "src/ComponentProps.ts",
+                                "line": 52,
+                                "character": 31,
+                                "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=52"
+                              }
+                            ],
+                            "type": {
+                              "type": "intrinsic",
+                              "name": "string"
+                            }
+                          }
+                        ],
+                        "groups": [
+                          {
+                            "title": "Properties",
+                            "children": [
+                              32,
+                              31
+                            ]
+                          }
+                        ],
+                        "sources": [
+                          {
+                            "fileName": "src/ComponentProps.ts",
+                            "line": 52,
+                            "character": 29,
+                            "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=52"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": 25,
+                  "name": "arrayProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An array prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 42,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=42"
+                    }
+                  ],
+                  "type": {
+                    "type": "array",
+                    "elementType": {
+                      "type": "intrinsic",
+                      "name": "string"
+                    }
+                  }
+                },
+                {
+                  "id": 13,
+                  "name": "booleanProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A boolean prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 12,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=12"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "boolean"
+                  }
+                },
+                {
+                  "id": 16,
+                  "name": "functionProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A function prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 27,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=27"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 17,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 27,
+                          "character": 18,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=27"
+                        }
+                      ],
+                      "signatures": [
+                        {
+                          "id": 18,
+                          "name": "__type",
+                          "variant": "signature",
+                          "kind": 4096,
+                          "flags": {},
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "void"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 19,
+                  "name": "functionWithParamsProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A function prop with parameters"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 32,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=32"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 20,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 32,
+                          "character": 28,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=32"
+                        }
+                      ],
+                      "signatures": [
+                        {
+                          "id": 21,
+                          "name": "__type",
+                          "variant": "signature",
+                          "kind": 4096,
+                          "flags": {},
+                          "parameters": [
+                            {
+                              "id": 22,
+                              "name": "param1",
+                              "variant": "param",
+                              "kind": 32768,
+                              "flags": {},
+                              "type": {
+                                "type": "intrinsic",
+                                "name": "string"
+                              }
+                            },
+                            {
+                              "id": 23,
+                              "name": "param2",
+                              "variant": "param",
+                              "kind": 32768,
+                              "flags": {},
+                              "type": {
+                                "type": "intrinsic",
+                                "name": "number"
+                              }
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "void"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 50,
+                  "name": "indexedAccessProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An indexed access prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 107,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=107"
+                    }
+                  ],
+                  "type": {
+                    "type": "indexedAccess",
+                    "indexType": {
+                      "type": "literal",
+                      "value": "stringProp"
+                    },
+                    "objectType": {
+                      "type": "reference",
+                      "target": 11,
+                      "name": "ComponentProps",
+                      "package": "next-yak-typedoc"
+                    }
+                  }
+                },
+                {
+                  "id": 44,
+                  "name": "intersectionProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An intersection prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 77,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=77"
+                    }
+                  ],
+                  "type": {
+                    "type": "intersection",
+                    "types": [
+                      {
+                        "type": "intrinsic",
+                        "name": "string"
+                      },
+                      {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 47,
+                  "name": "literalIntersectionProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A literal intersection prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 92,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=92"
+                    }
+                  ],
+                  "type": {
+                    "type": "intersection",
+                    "types": [
+                      {
+                        "type": "literal",
+                        "value": "literal"
+                      },
+                      {
+                        "type": "literal",
+                        "value": "intersection"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 45,
+                  "name": "literalProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A literal prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 82,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=82"
+                    }
+                  ],
+                  "type": {
+                    "type": "literal",
+                    "value": "literal"
+                  }
+                },
+                {
+                  "id": 46,
+                  "name": "literalUnionProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A literal union prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 87,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=87"
+                    }
+                  ],
+                  "type": {
+                    "type": "union",
+                    "types": [
+                      {
+                        "type": "literal",
+                        "value": "literal"
+                      },
+                      {
+                        "type": "literal",
+                        "value": "union"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 68,
+                  "name": "mappedProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A mapped prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 137,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=137"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 69,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 137,
+                          "character": 16,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=137"
+                        }
+                      ],
+                      "indexSignatures": [
+                        {
+                          "id": 70,
+                          "name": "__index",
+                          "variant": "signature",
+                          "kind": 8192,
+                          "flags": {},
+                          "sources": [
+                            {
+                              "fileName": "src/ComponentProps.ts",
+                              "line": 137,
+                              "character": 18,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=137"
+                            }
+                          ],
+                          "parameters": [
+                            {
+                              "id": 71,
+                              "name": "key",
+                              "variant": "param",
+                              "kind": 32768,
+                              "flags": {},
+                              "type": {
+                                "type": "intrinsic",
+                                "name": "string"
+                              }
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 75,
+                  "name": "namedTupleMemberProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A named tuple member prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 157,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=157"
+                    }
+                  ],
+                  "type": {
+                    "type": "tuple",
+                    "elements": [
+                      {
+                        "type": "namedTupleMember",
+                        "name": "first",
+                        "isOptional": false,
+                        "element": {
+                          "type": "intrinsic",
+                          "name": "string"
+                        }
+                      },
+                      {
+                        "type": "namedTupleMember",
+                        "name": "second",
+                        "isOptional": false,
+                        "element": {
+                          "type": "intrinsic",
+                          "name": "number"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 14,
+                  "name": "numberProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A number prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 17,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=17"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "number"
+                  }
+                },
+                {
+                  "id": 24,
+                  "name": "objectProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An object prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 37,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=37"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "object"
+                  }
+                },
+                {
+                  "id": 40,
+                  "name": "objectWithOptionalShapeProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {
+                    "isOptional": true
+                  },
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An object with a specific shape and optional key prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 67,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=67"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 41,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "children": [
+                        {
+                          "id": 42,
+                          "name": "name",
+                          "variant": "declaration",
+                          "kind": 1024,
+                          "flags": {},
+                          "sources": [
+                            {
+                              "fileName": "src/ComponentProps.ts",
+                              "line": 67,
+                              "character": 36,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=67"
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ],
+                      "groups": [
+                        {
+                          "title": "Properties",
+                          "children": [
+                            42
+                          ]
+                        }
+                      ],
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 67,
+                          "character": 34,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=67"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 33,
+                  "name": "objectWithShapeProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An object with a specific shape prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 57,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=57"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 34,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "children": [
+                        {
+                          "id": 35,
+                          "name": "name",
+                          "variant": "declaration",
+                          "kind": 1024,
+                          "flags": {},
+                          "sources": [
+                            {
+                              "fileName": "src/ComponentProps.ts",
+                              "line": 57,
+                              "character": 27,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=57"
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ],
+                      "groups": [
+                        {
+                          "title": "Properties",
+                          "children": [
+                            35
+                          ]
+                        }
+                      ],
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 57,
+                          "character": 25,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=57"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 36,
+                  "name": "objectWithShapePropMulti",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An object with multiple keys"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 62,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=62"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 37,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "children": [
+                        {
+                          "id": 39,
+                          "name": "active",
+                          "variant": "declaration",
+                          "kind": 1024,
+                          "flags": {},
+                          "sources": [
+                            {
+                              "fileName": "src/ComponentProps.ts",
+                              "line": 62,
+                              "character": 46,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=62"
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "boolean"
+                          }
+                        },
+                        {
+                          "id": 38,
+                          "name": "name",
+                          "variant": "declaration",
+                          "kind": 1024,
+                          "flags": {},
+                          "sources": [
+                            {
+                              "fileName": "src/ComponentProps.ts",
+                              "line": 62,
+                              "character": 32,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=62"
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ],
+                      "groups": [
+                        {
+                          "title": "Properties",
+                          "children": [
+                            39,
+                            38
+                          ]
+                        }
+                      ],
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 62,
+                          "character": 30,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=62"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 52,
+                  "name": "predicateProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A predicate prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 117,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=117"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 53,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 117,
+                          "character": 19,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=117"
+                        }
+                      ],
+                      "signatures": [
+                        {
+                          "id": 54,
+                          "name": "__type",
+                          "variant": "signature",
+                          "kind": 4096,
+                          "flags": {},
+                          "parameters": [
+                            {
+                              "id": 55,
+                              "name": "probe",
+                              "variant": "param",
+                              "kind": 32768,
+                              "flags": {},
+                              "type": {
+                                "type": "intrinsic",
+                                "name": "unknown"
+                              }
+                            }
+                          ],
+                          "type": {
+                            "type": "predicate",
+                            "name": "probe",
+                            "asserts": false,
+                            "targetType": {
+                              "type": "intrinsic",
+                              "name": "number"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 51,
+                  "name": "queryProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A query prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 112,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=112"
+                    }
+                  ],
+                  "type": {
+                    "type": "query",
+                    "queryType": {
+                      "type": "reference",
+                      "target": {
+                        "sourceFileName": "src/ComponentProps.ts",
+                        "qualifiedName": "_queryPropEmptyArray"
+                      },
+                      "name": "_queryPropEmptyArray",
+                      "package": "next-yak-typedoc",
+                      "preferValues": true
+                    }
+                  }
+                },
+                {
+                  "id": 59,
+                  "name": "reflectionFunctionProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A reflection function prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 127,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=127"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 60,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 127,
+                          "character": 28,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=127"
+                        }
+                      ],
+                      "signatures": [
+                        {
+                          "id": 61,
+                          "name": "__type",
+                          "variant": "signature",
+                          "kind": 4096,
+                          "flags": {},
+                          "parameters": [
+                            {
+                              "id": 62,
+                              "name": "param",
+                              "variant": "param",
+                              "kind": 32768,
+                              "flags": {},
+                              "type": {
+                                "type": "intrinsic",
+                                "name": "string"
+                              }
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "number"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 63,
+                  "name": "reflectionFunctionWithParamsProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A reflection function prop with multiple parameters"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 132,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=132"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 64,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 132,
+                          "character": 38,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=132"
+                        }
+                      ],
+                      "signatures": [
+                        {
+                          "id": 65,
+                          "name": "__type",
+                          "variant": "signature",
+                          "kind": 4096,
+                          "flags": {},
+                          "parameters": [
+                            {
+                              "id": 66,
+                              "name": "param1",
+                              "variant": "param",
+                              "kind": 32768,
+                              "flags": {},
+                              "type": {
+                                "type": "intrinsic",
+                                "name": "string"
+                              }
+                            },
+                            {
+                              "id": 67,
+                              "name": "param2",
+                              "variant": "param",
+                              "kind": 32768,
+                              "flags": {},
+                              "type": {
+                                "type": "intrinsic",
+                                "name": "number"
+                              }
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "boolean"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 56,
+                  "name": "reflectionProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A reflection prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 122,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=122"
+                    }
+                  ],
+                  "type": {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 57,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {},
+                      "children": [
+                        {
+                          "id": 58,
+                          "name": "name",
+                          "variant": "declaration",
+                          "kind": 1024,
+                          "flags": {},
+                          "sources": [
+                            {
+                              "fileName": "src/ComponentProps.ts",
+                              "line": 122,
+                              "character": 22,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=122"
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ],
+                      "groups": [
+                        {
+                          "title": "Properties",
+                          "children": [
+                            58
+                          ]
+                        }
+                      ],
+                      "sources": [
+                        {
+                          "fileName": "src/ComponentProps.ts",
+                          "line": 122,
+                          "character": 20,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=122"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 15,
+                  "name": "stringProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A string prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 22,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=22"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
+                  }
+                },
+                {
+                  "id": 72,
+                  "name": "templateLiteralProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A template literal prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 142,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=142"
+                    }
+                  ],
+                  "type": {
+                    "type": "templateLiteral",
+                    "head": "template ",
+                    "tail": [
+                      [
+                        {
+                          "type": "intrinsic",
+                          "name": "string"
+                        },
+                        ""
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "id": 74,
+                  "name": "tupleProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A tuple prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 152,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=152"
+                    }
+                  ],
+                  "type": {
+                    "type": "tuple",
+                    "elements": [
+                      {
+                        "type": "intrinsic",
+                        "name": "string"
+                      },
+                      {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 49,
+                  "name": "typeOperatorProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A type operator prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 102,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=102"
+                    }
+                  ],
+                  "type": {
+                    "type": "typeOperator",
+                    "operator": "keyof",
+                    "target": {
+                      "type": "reference",
+                      "target": 11,
+                      "name": "ComponentProps",
+                      "package": "next-yak-typedoc"
+                    }
+                  }
+                },
+                {
+                  "id": 48,
+                  "name": "typeReferenceProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A type reference prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 97,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=97"
+                    }
+                  ],
+                  "type": {
+                    "type": "reference",
+                    "target": {
+                      "sourceFileName": "node_modules/@types/react/index.d.ts",
+                      "qualifiedName": "React.ReactNode"
+                    },
+                    "name": "ReactNode",
+                    "package": "@types/react",
+                    "qualifiedName": "React.ReactNode"
+                  }
+                },
+                {
+                  "id": 43,
+                  "name": "unionProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "A union prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 72,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=72"
+                    }
+                  ],
+                  "type": {
+                    "type": "union",
+                    "types": [
+                      {
+                        "type": "intrinsic",
+                        "name": "string"
+                      },
+                      {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 73,
+                  "name": "unknownProp",
+                  "variant": "declaration",
+                  "kind": 1024,
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "An unknown prop"
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "src/ComponentProps.ts",
+                      "line": 147,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=147"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "unknown"
+                  }
+                }
+              ],
+              "groups": [
+                {
+                  "title": "Properties",
+                  "children": [
+                    26,
+                    29,
+                    25,
+                    13,
+                    16,
+                    19,
+                    50,
+                    44,
+                    47,
+                    45,
+                    46,
+                    68,
+                    75,
+                    14,
+                    24,
+                    40,
+                    33,
+                    36,
+                    52,
+                    51,
+                    59,
+                    63,
+                    56,
+                    15,
+                    72,
+                    74,
+                    49,
+                    48,
+                    43,
+                    73
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "fileName": "src/ComponentProps.ts",
+                  "line": 8,
+                  "character": 29,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=8"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "groups": [
+        {
+          "title": "Type Aliases",
+          "children": [
+            11
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "fileName": "src/ComponentProps.ts",
+          "line": 1,
+          "character": 0,
+          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ComponentProps.ts#line=1"
+        }
+      ]
+    },
+    {
       "id": 1,
       "name": "src/ReactComponent",
       "variant": "declaration",
@@ -153,10 +1742,7 @@
                 "typeArguments": [
                   {
                     "type": "reference",
-                    "target": {
-                      "sourceFileName": "src/ComponentProps.ts",
-                      "qualifiedName": "ComponentProps"
-                    },
+                    "target": 11,
                     "name": "ComponentProps",
                     "package": "next-yak-typedoc"
                   }
@@ -264,10 +1850,7 @@
                 "typeArguments": [
                   {
                     "type": "reference",
-                    "target": {
-                      "sourceFileName": "src/ComponentProps.ts",
-                      "qualifiedName": "ComponentProps"
-                    },
+                    "target": 11,
                     "name": "ComponentProps",
                     "package": "next-yak-typedoc"
                   }
@@ -321,10 +1904,7 @@
                   "flags": {},
                   "type": {
                     "type": "reference",
-                    "target": {
-                      "sourceFileName": "src/ComponentProps.ts",
-                      "qualifiedName": "ComponentProps"
-                    },
+                    "target": 11,
                     "name": "ComponentProps",
                     "package": "next-yak-typedoc"
                   }
@@ -393,6 +1973,7 @@
     {
       "title": "Modules",
       "children": [
+        10,
         1
       ]
     }
@@ -440,14 +2021,276 @@
     "9": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
       "qualifiedName": "React.FunctionComponent.displayName"
+    },
+    "10": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": ""
+    },
+    "11": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "ComponentProps"
+    },
+    "12": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "13": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.booleanProp"
+    },
+    "14": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.numberProp"
+    },
+    "15": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.stringProp"
+    },
+    "16": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.functionProp"
+    },
+    "17": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "18": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "19": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.functionWithParamsProp"
+    },
+    "20": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "21": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "22": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "param1"
+    },
+    "23": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "param2"
+    },
+    "24": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.objectProp"
+    },
+    "25": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.arrayProp"
+    },
+    "26": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.arrayOfObjectsProp"
+    },
+    "27": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "28": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.name"
+    },
+    "29": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.arrayOfObjectsPropMulti"
+    },
+    "30": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "31": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.name"
+    },
+    "32": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.active"
+    },
+    "33": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.objectWithShapeProp"
+    },
+    "34": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "35": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.name"
+    },
+    "36": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.objectWithShapePropMulti"
+    },
+    "37": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "38": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.name"
+    },
+    "39": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.active"
+    },
+    "40": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.objectWithOptionalShapeProp"
+    },
+    "41": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "42": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.name"
+    },
+    "43": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.unionProp"
+    },
+    "44": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.intersectionProp"
+    },
+    "45": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.literalProp"
+    },
+    "46": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.literalUnionProp"
+    },
+    "47": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.literalIntersectionProp"
+    },
+    "48": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.typeReferenceProp"
+    },
+    "49": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.typeOperatorProp"
+    },
+    "50": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.indexedAccessProp"
+    },
+    "51": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.queryProp"
+    },
+    "52": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.predicateProp"
+    },
+    "53": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "54": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "55": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "probe"
+    },
+    "56": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.reflectionProp"
+    },
+    "57": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "58": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.name"
+    },
+    "59": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.reflectionFunctionProp"
+    },
+    "60": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "61": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "62": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "param"
+    },
+    "63": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.reflectionFunctionWithParamsProp"
+    },
+    "64": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "65": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "66": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "param1"
+    },
+    "67": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "param2"
+    },
+    "68": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.mappedProp"
+    },
+    "69": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type"
+    },
+    "70": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.__index"
+    },
+    "72": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.templateLiteralProp"
+    },
+    "73": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.unknownProp"
+    },
+    "74": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.tupleProp"
+    },
+    "75": {
+      "sourceFileName": "src/ComponentProps.ts",
+      "qualifiedName": "__type.namedTupleMemberProp"
     }
   },
   "files": {
     "entries": {
-      "1": "src/ReactComponent.ts"
+      "1": "src/ReactComponent.ts",
+      "2": "src/ComponentProps.ts"
     },
     "reflections": {
-      "1": 1
+      "1": 1,
+      "2": 10
     }
   }
 }

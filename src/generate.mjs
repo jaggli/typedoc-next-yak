@@ -22,7 +22,7 @@ export const getTypedoc = async (file) => {
   // according to https://github.com/TypeStrong/typedoc/issues/2504
   const typedocApplication = await Application.bootstrap(
     {
-      entryPoints: [filePath],
+      entryPoints: [filePath, path.resolve(__dirname, "ComponentProps.ts")],
       tsconfig: path.join(rootDir, 'tsconfig.json'),
       basePath: rootDir,
       cleanOutputDir: false,
