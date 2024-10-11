@@ -2,6 +2,9 @@ import type { ReactNode } from 'react';
 
 const _queryPropEmptyArray: string[] = [];
 
+/**
+ * Component Props
+ */
 export type ComponentProps = {
     /**
      * A boolean prop

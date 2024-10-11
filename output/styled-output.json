@@ -7,79 +7,100 @@
   "children": [
     {
       "id": 1,
-      "name": "StyledComponent",
+      "name": "src/StyledComponent",
       "variant": "declaration",
-      "kind": 64,
+      "kind": 2,
       "flags": {},
       "children": [
         {
-          "id": 23,
-          "name": "_sc",
+          "id": 2,
+          "name": "StyledComponent",
           "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true,
-            "isReadonly": true
-          },
-          "sources": [
+          "kind": 64,
+          "flags": {},
+          "children": [
             {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 17,
-              "character": 13,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=17"
-            }
-          ],
-          "type": {
-            "type": "intrinsic",
-            "name": "symbol"
-          }
-        },
-        {
-          "id": 21,
-          "name": "attrs",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 106,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=106"
-            }
-          ],
-          "type": {
-            "type": "array",
-            "elementType": {
-              "type": "reference",
-              "target": {
-                "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-                "qualifiedName": "Attrs"
+              "id": 24,
+              "name": "_sc",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true,
+                "isReadonly": true
               },
-              "typeArguments": [
+              "sources": [
                 {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 17,
+                  "character": 13,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=17"
+                }
+              ],
+              "type": {
+                "type": "intrinsic",
+                "name": "symbol"
+              }
+            },
+            {
+              "id": 22,
+              "name": "attrs",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 106,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=106"
+                }
+              ],
+              "type": {
+                "type": "array",
+                "elementType": {
                   "type": "reference",
                   "target": {
                     "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-                    "qualifiedName": "Substitute"
+                    "qualifiedName": "Attrs"
                   },
                   "typeArguments": [
                     {
                       "type": "reference",
                       "target": {
-                        "sourceFileName": "node_modules/@types/react/index.d.ts",
-                        "qualifiedName": "React.DetailedHTMLProps"
+                        "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+                        "qualifiedName": "Substitute"
                       },
                       "typeArguments": [
                         {
                           "type": "reference",
                           "target": {
                             "sourceFileName": "node_modules/@types/react/index.d.ts",
-                            "qualifiedName": "React.HTMLAttributes"
+                            "qualifiedName": "React.DetailedHTMLProps"
                           },
                           "typeArguments": [
+                            {
+                              "type": "reference",
+                              "target": {
+                                "sourceFileName": "node_modules/@types/react/index.d.ts",
+                                "qualifiedName": "React.HTMLAttributes"
+                              },
+                              "typeArguments": [
+                                {
+                                  "type": "reference",
+                                  "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+                                    "qualifiedName": "HTMLDivElement"
+                                  },
+                                  "name": "HTMLDivElement",
+                                  "package": "typescript"
+                                }
+                              ],
+                              "name": "HTMLAttributes",
+                              "package": "@types/react",
+                              "qualifiedName": "React.HTMLAttributes"
+                            },
                             {
                               "type": "reference",
                               "target": {
@@ -90,127 +111,127 @@
                               "package": "typescript"
                             }
                           ],
-                          "name": "HTMLAttributes",
+                          "name": "DetailedHTMLProps",
                           "package": "@types/react",
-                          "qualifiedName": "React.HTMLAttributes"
+                          "qualifiedName": "React.DetailedHTMLProps"
                         },
                         {
                           "type": "reference",
                           "target": {
-                            "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
-                            "qualifiedName": "HTMLDivElement"
+                            "sourceFileName": "src/ComponentProps.ts",
+                            "qualifiedName": "ComponentProps"
                           },
-                          "name": "HTMLDivElement",
-                          "package": "typescript"
+                          "name": "ComponentProps",
+                          "package": "next-yak-typedoc"
                         }
                       ],
-                      "name": "DetailedHTMLProps",
-                      "package": "@types/react",
-                      "qualifiedName": "React.DetailedHTMLProps"
-                    },
-                    {
-                      "type": "reference",
-                      "target": {
-                        "sourceFileName": "src/ComponentProps.ts",
-                        "qualifiedName": "ComponentProps"
-                      },
-                      "name": "ComponentProps",
-                      "package": "next-yak-typedoc"
+                      "name": "Substitute",
+                      "package": "styled-components"
                     }
                   ],
-                  "name": "Substitute",
+                  "name": "Attrs",
                   "package": "styled-components"
                 }
-              ],
-              "name": "Attrs",
-              "package": "styled-components"
-            }
-          }
-        },
-        {
-          "id": 12,
-          "name": "componentStyle",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 111,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=111"
-            }
-          ],
-          "type": {
-            "type": "reference",
-            "target": {
-              "sourceFileName": "node_modules/styled-components/dist/models/ComponentStyle.d.ts",
-              "qualifiedName": "default"
+              }
             },
-            "name": "ComponentStyle",
-            "package": "styled-components",
-            "qualifiedName": "default"
-          }
-        },
-        {
-          "id": 6,
-          "name": "defaultProps",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true,
-            "isOptional": true
-          },
-          "sources": [
             {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 136,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=136"
-            }
-          ],
-          "type": {
-            "type": "intersection",
-            "types": [
-              {
-                "type": "reference",
-                "target": {
-                  "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-                  "qualifiedName": "ExecutionProps"
-                },
-                "name": "ExecutionProps",
-                "package": "styled-components"
+              "id": 13,
+              "name": "componentStyle",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true
               },
-              {
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 111,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=111"
+                }
+              ],
+              "type": {
                 "type": "reference",
                 "target": {
-                  "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                  "qualifiedName": "Partial"
+                  "sourceFileName": "node_modules/styled-components/dist/models/ComponentStyle.d.ts",
+                  "qualifiedName": "default"
                 },
-                "typeArguments": [
+                "name": "ComponentStyle",
+                "package": "styled-components",
+                "qualifiedName": "default"
+              }
+            },
+            {
+              "id": 7,
+              "name": "defaultProps",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true,
+                "isOptional": true
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 136,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=136"
+                }
+              ],
+              "type": {
+                "type": "intersection",
+                "types": [
                   {
                     "type": "reference",
                     "target": {
                       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-                      "qualifiedName": "Substitute"
+                      "qualifiedName": "ExecutionProps"
+                    },
+                    "name": "ExecutionProps",
+                    "package": "styled-components"
+                  },
+                  {
+                    "type": "reference",
+                    "target": {
+                      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "qualifiedName": "Partial"
                     },
                     "typeArguments": [
                       {
                         "type": "reference",
                         "target": {
-                          "sourceFileName": "node_modules/@types/react/index.d.ts",
-                          "qualifiedName": "React.DetailedHTMLProps"
+                          "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+                          "qualifiedName": "Substitute"
                         },
                         "typeArguments": [
                           {
                             "type": "reference",
                             "target": {
                               "sourceFileName": "node_modules/@types/react/index.d.ts",
-                              "qualifiedName": "React.HTMLAttributes"
+                              "qualifiedName": "React.DetailedHTMLProps"
                             },
                             "typeArguments": [
+                              {
+                                "type": "reference",
+                                "target": {
+                                  "sourceFileName": "node_modules/@types/react/index.d.ts",
+                                  "qualifiedName": "React.HTMLAttributes"
+                                },
+                                "typeArguments": [
+                                  {
+                                    "type": "reference",
+                                    "target": {
+                                      "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+                                      "qualifiedName": "HTMLDivElement"
+                                    },
+                                    "name": "HTMLDivElement",
+                                    "package": "typescript"
+                                  }
+                                ],
+                                "name": "HTMLAttributes",
+                                "package": "@types/react",
+                                "qualifiedName": "React.HTMLAttributes"
+                              },
                               {
                                 "type": "reference",
                                 "target": {
@@ -221,248 +242,217 @@
                                 "package": "typescript"
                               }
                             ],
-                            "name": "HTMLAttributes",
+                            "name": "DetailedHTMLProps",
                             "package": "@types/react",
-                            "qualifiedName": "React.HTMLAttributes"
+                            "qualifiedName": "React.DetailedHTMLProps"
                           },
                           {
                             "type": "reference",
                             "target": {
-                              "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
-                              "qualifiedName": "HTMLDivElement"
+                              "sourceFileName": "src/ComponentProps.ts",
+                              "qualifiedName": "ComponentProps"
                             },
-                            "name": "HTMLDivElement",
-                            "package": "typescript"
+                            "name": "ComponentProps",
+                            "package": "next-yak-typedoc"
                           }
                         ],
-                        "name": "DetailedHTMLProps",
-                        "package": "@types/react",
-                        "qualifiedName": "React.DetailedHTMLProps"
-                      },
-                      {
-                        "type": "reference",
-                        "target": {
-                          "sourceFileName": "src/ComponentProps.ts",
-                          "qualifiedName": "ComponentProps"
-                        },
-                        "name": "ComponentProps",
-                        "package": "next-yak-typedoc"
+                        "name": "Substitute",
+                        "package": "styled-components"
                       }
                     ],
-                    "name": "Substitute",
-                    "package": "styled-components"
+                    "name": "Partial",
+                    "package": "typescript"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 14,
+              "name": "foldedComponentIds",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 112,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=112"
+                }
+              ],
+              "type": {
+                "type": "intrinsic",
+                "name": "string"
+              }
+            },
+            {
+              "id": 15,
+              "name": "inlineStyle",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 113,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=113"
+                }
+              ],
+              "type": {
+                "type": "intrinsic",
+                "name": "never"
+              }
+            },
+            {
+              "id": 90,
+              "name": "length",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true,
+                "isReadonly": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Returns the length of a String object."
+                  }
+                ]
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                  "line": 517,
+                  "character": 13,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=517"
+                }
+              ],
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            },
+            {
+              "id": 23,
+              "name": "shouldForwardProp",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true,
+                "isOptional": true
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 108,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=108"
+                }
+              ],
+              "type": {
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+                  "qualifiedName": "ShouldForwardProp"
+                },
+                "typeArguments": [
+                  {
+                    "type": "literal",
+                    "value": "web"
                   }
                 ],
-                "name": "Partial",
-                "package": "typescript"
+                "name": "ShouldForwardProp",
+                "package": "styled-components"
               }
-            ]
-          }
-        },
-        {
-          "id": 13,
-          "name": "foldedComponentIds",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 112,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=112"
-            }
-          ],
-          "type": {
-            "type": "intrinsic",
-            "name": "string"
-          }
-        },
-        {
-          "id": 14,
-          "name": "inlineStyle",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 113,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=113"
-            }
-          ],
-          "type": {
-            "type": "intrinsic",
-            "name": "never"
-          }
-        },
-        {
-          "id": 89,
-          "name": "length",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true,
-            "isReadonly": true
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Returns the length of a String object."
-              }
-            ]
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 517,
-              "character": 13,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=517"
-            }
-          ],
-          "type": {
-            "type": "intrinsic",
-            "name": "number"
-          }
-        },
-        {
-          "id": 22,
-          "name": "shouldForwardProp",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true,
-            "isOptional": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 108,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=108"
-            }
-          ],
-          "type": {
-            "type": "reference",
-            "target": {
-              "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-              "qualifiedName": "ShouldForwardProp"
-            },
-            "typeArguments": [
-              {
-                "type": "literal",
-                "value": "web"
-              }
-            ],
-            "name": "ShouldForwardProp",
-            "package": "styled-components"
-          }
-        },
-        {
-          "id": 16,
-          "name": "styledComponentId",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 115,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=115"
-            }
-          ],
-          "type": {
-            "type": "intrinsic",
-            "name": "string"
-          }
-        },
-        {
-          "id": 15,
-          "name": "target",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 114,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=114"
-            }
-          ],
-          "type": {
-            "type": "intrinsic",
-            "name": "any"
-          }
-        },
-        {
-          "id": 7,
-          "name": "toString",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Returns a string representation of a function."
-              }
-            ]
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 137,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=137"
             },
             {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 412,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=412"
-            }
-          ],
-          "type": {
-            "type": "intersection",
-            "types": [
-              {
-                "type": "reflection",
-                "declaration": {
-                  "id": 8,
-                  "name": "__type",
-                  "variant": "declaration",
-                  "kind": 65536,
-                  "flags": {
-                    "isExternal": true
-                  },
-                  "sources": [
-                    {
-                      "fileName": "node_modules/styled-components/dist/types.d.ts",
-                      "line": 137,
-                      "character": 14,
-                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=137"
-                    }
-                  ],
-                  "signatures": [
-                    {
+              "id": 17,
+              "name": "styledComponentId",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 115,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=115"
+                }
+              ],
+              "type": {
+                "type": "intrinsic",
+                "name": "string"
+              }
+            },
+            {
+              "id": 16,
+              "name": "target",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 114,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=114"
+                }
+              ],
+              "type": {
+                "type": "intrinsic",
+                "name": "any"
+              }
+            },
+            {
+              "id": 8,
+              "name": "toString",
+              "variant": "declaration",
+              "kind": 1024,
+              "flags": {
+                "isExternal": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Returns a string representation of a function."
+                  }
+                ]
+              },
+              "sources": [
+                {
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 137,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=137"
+                },
+                {
+                  "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                  "line": 412,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=412"
+                }
+              ],
+              "type": {
+                "type": "intersection",
+                "types": [
+                  {
+                    "type": "reflection",
+                    "declaration": {
                       "id": 9,
                       "name": "__type",
-                      "variant": "signature",
-                      "kind": 4096,
+                      "variant": "declaration",
+                      "kind": 65536,
                       "flags": {
                         "isExternal": true
                       },
@@ -474,48 +464,40 @@
                           "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=137"
                         }
                       ],
-                      "type": {
-                        "type": "intrinsic",
-                        "name": "string"
-                      }
+                      "signatures": [
+                        {
+                          "id": 10,
+                          "name": "__type",
+                          "variant": "signature",
+                          "kind": 4096,
+                          "flags": {
+                            "isExternal": true
+                          },
+                          "sources": [
+                            {
+                              "fileName": "node_modules/styled-components/dist/types.d.ts",
+                              "line": 137,
+                              "character": 14,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=137"
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ]
                     }
-                  ]
-                }
-              },
-              {
-                "type": "reflection",
-                "declaration": {
-                  "id": 10,
-                  "name": "__type",
-                  "variant": "declaration",
-                  "kind": 65536,
-                  "flags": {
-                    "isExternal": true
                   },
-                  "sources": [
-                    {
-                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                      "line": 412,
-                      "character": 4,
-                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=412"
-                    }
-                  ],
-                  "signatures": [
-                    {
+                  {
+                    "type": "reflection",
+                    "declaration": {
                       "id": 11,
                       "name": "__type",
-                      "variant": "signature",
-                      "kind": 4096,
+                      "variant": "declaration",
+                      "kind": 65536,
                       "flags": {
                         "isExternal": true
-                      },
-                      "comment": {
-                        "summary": [
-                          {
-                            "kind": "text",
-                            "text": "Returns a string representation of a string."
-                          }
-                        ]
                       },
                       "sources": [
                         {
@@ -525,58 +507,66 @@
                           "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=412"
                         }
                       ],
-                      "type": {
-                        "type": "intrinsic",
-                        "name": "string"
-                      }
+                      "signatures": [
+                        {
+                          "id": 12,
+                          "name": "__type",
+                          "variant": "signature",
+                          "kind": 4096,
+                          "flags": {
+                            "isExternal": true
+                          },
+                          "comment": {
+                            "summary": [
+                              {
+                                "kind": "text",
+                                "text": "Returns a string representation of a string."
+                              }
+                            ]
+                          },
+                          "sources": [
+                            {
+                              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                              "line": 412,
+                              "character": 4,
+                              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=412"
+                            }
+                          ],
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ]
                     }
-                  ]
-                }
+                  }
+                ]
               }
-            ]
-          }
-        },
-        {
-          "id": 17,
-          "name": "warnTooManyClasses",
-          "variant": "declaration",
-          "kind": 1024,
-          "flags": {
-            "isExternal": true,
-            "isOptional": true
-          },
-          "sources": [
+            },
             {
-              "fileName": "node_modules/styled-components/dist/types.d.ts",
-              "line": 116,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=116"
-            }
-          ],
-          "type": {
-            "type": "reflection",
-            "declaration": {
               "id": 18,
-              "name": "__type",
+              "name": "warnTooManyClasses",
               "variant": "declaration",
-              "kind": 65536,
+              "kind": 1024,
               "flags": {
-                "isExternal": true
+                "isExternal": true,
+                "isOptional": true
               },
               "sources": [
                 {
-                  "fileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
-                  "line": 2,
-                  "character": 70,
-                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts#line=2"
+                  "fileName": "node_modules/styled-components/dist/types.d.ts",
+                  "line": 116,
+                  "character": 4,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/types.d.ts#line=116"
                 }
               ],
-              "signatures": [
-                {
+              "type": {
+                "type": "reflection",
+                "declaration": {
                   "id": 19,
                   "name": "__type",
-                  "variant": "signature",
-                  "kind": 4096,
+                  "variant": "declaration",
+                  "kind": 65536,
                   "flags": {
                     "isExternal": true
                   },
@@ -588,62 +578,54 @@
                       "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts#line=2"
                     }
                   ],
-                  "parameters": [
+                  "signatures": [
                     {
                       "id": 20,
-                      "name": "className",
-                      "variant": "param",
-                      "kind": 32768,
+                      "name": "__type",
+                      "variant": "signature",
+                      "kind": 4096,
                       "flags": {
                         "isExternal": true
                       },
+                      "sources": [
+                        {
+                          "fileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
+                          "line": 2,
+                          "character": 70,
+                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts#line=2"
+                        }
+                      ],
+                      "parameters": [
+                        {
+                          "id": 21,
+                          "name": "className",
+                          "variant": "param",
+                          "kind": 32768,
+                          "flags": {
+                            "isExternal": true
+                          },
+                          "type": {
+                            "type": "intrinsic",
+                            "name": "string"
+                          }
+                        }
+                      ],
                       "type": {
                         "type": "intrinsic",
-                        "name": "string"
+                        "name": "void"
                       }
                     }
-                  ],
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "void"
-                  }
+                  ]
                 }
-              ]
-            }
-          }
-        },
-        {
-          "id": 24,
-          "name": "charAt",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 418,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=418"
-            }
-          ],
-          "signatures": [
+              }
+            },
             {
               "id": 25,
               "name": "charAt",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns the character at the specified index."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -653,12 +635,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=418"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 26,
-                  "name": "pos",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "charAt",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -666,55 +648,55 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The zero-based index of the desired character."
+                        "text": "Returns the character at the specified index."
                       }
                     ]
                   },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 418,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=418"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 27,
+                      "name": "pos",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The zero-based index of the desired character."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    }
+                  ],
                   "type": {
                     "type": "intrinsic",
-                    "name": "number"
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 27,
-          "name": "charCodeAt",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 424,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=424"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 28,
               "name": "charCodeAt",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns the Unicode value of the character at the specified location."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -724,12 +706,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=424"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 29,
-                  "name": "index",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "charCodeAt",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -737,55 +719,55 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The zero-based index of the desired character. If there is no character at the specified index, NaN is returned."
+                        "text": "Returns the Unicode value of the character at the specified location."
                       }
                     ]
                   },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 424,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=424"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 30,
+                      "name": "index",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The zero-based index of the desired character. If there is no character at the specified index, NaN is returned."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    }
+                  ],
                   "type": {
                     "type": "intrinsic",
                     "name": "number"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "number"
-              }
-            }
-          ]
-        },
-        {
-          "id": 30,
-          "name": "concat",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 430,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=430"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 31,
               "name": "concat",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns a string that contains the concatenation of two or more strings."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -795,72 +777,72 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=430"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 32,
-                  "name": "strings",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "concat",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
-                    "isExternal": true,
-                    "isRest": true
+                    "isExternal": true
                   },
                   "comment": {
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The strings to append to the end of the string."
+                        "text": "Returns a string that contains the concatenation of two or more strings."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "array",
-                    "elementType": {
-                      "type": "intrinsic",
-                      "name": "string"
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 430,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=430"
                     }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 33,
+                      "name": "strings",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isRest": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The strings to append to the end of the string."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "array",
+                        "elementType": {
+                          "type": "intrinsic",
+                          "name": "string"
+                        }
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 33,
-          "name": "indexOf",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 437,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=437"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 34,
               "name": "indexOf",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns the position of the first occurrence of a substring."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -870,12 +852,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=437"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 35,
-                  "name": "searchString",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "indexOf",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -883,77 +865,77 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The substring to search for in the string"
+                        "text": "Returns the position of the first occurrence of a substring."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "string"
-                  }
-                },
-                {
-                  "id": 36,
-                  "name": "position",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true,
-                    "isOptional": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "The index at which to begin searching the String object. If omitted, search starts at the beginning of the string."
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 437,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=437"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 36,
+                      "name": "searchString",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The substring to search for in the string"
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "string"
                       }
-                    ]
-                  },
+                    },
+                    {
+                      "id": 37,
+                      "name": "position",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The index at which to begin searching the String object. If omitted, search starts at the beginning of the string."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    }
+                  ],
                   "type": {
                     "type": "intrinsic",
                     "name": "number"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "number"
-              }
-            }
-          ]
-        },
-        {
-          "id": 37,
-          "name": "lastIndexOf",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 444,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=444"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 38,
               "name": "lastIndexOf",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns the last occurrence of a substring in the string."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -963,12 +945,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=444"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 39,
-                  "name": "searchString",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "lastIndexOf",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -976,83 +958,77 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The substring to search for."
+                        "text": "Returns the last occurrence of a substring in the string."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "string"
-                  }
-                },
-                {
-                  "id": 40,
-                  "name": "position",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true,
-                    "isOptional": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "The index at which to begin searching. If omitted, the search begins at the end of the string."
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 444,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=444"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 40,
+                      "name": "searchString",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The substring to search for."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "string"
                       }
-                    ]
-                  },
+                    },
+                    {
+                      "id": 41,
+                      "name": "position",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The index at which to begin searching. If omitted, the search begins at the end of the string."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    }
+                  ],
                   "type": {
                     "type": "intrinsic",
                     "name": "number"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "number"
-              }
-            }
-          ]
-        },
-        {
-          "id": 41,
-          "name": "localeCompare",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 450,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=450"
+              ]
             },
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 4553,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=4553"
-            }
-          ],
-          "signatures": [
             {
               "id": 42,
               "name": "localeCompare",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Determines whether two strings are equivalent in the current locale."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -1060,53 +1036,7 @@
                   "line": 450,
                   "character": 4,
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=450"
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 43,
-                  "name": "that",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "String to compare to target string"
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "string"
-                  }
-                }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "number"
-              }
-            },
-            {
-              "id": 44,
-              "name": "localeCompare",
-              "variant": "signature",
-              "kind": 4096,
-              "flags": {
-                "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Determines whether two strings are equivalent in the current or specified locale."
-                  }
-                ]
-              },
-              "sources": [
+                },
                 {
                   "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
                   "line": 4553,
@@ -1114,12 +1044,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=4553"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
-                  "id": 45,
-                  "name": "that",
-                  "variant": "param",
-                  "kind": 32768,
+                  "id": 43,
+                  "name": "localeCompare",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -1127,117 +1057,169 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "String to compare to target string"
+                        "text": "Determines whether two strings are equivalent in the current locale."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "string"
-                  }
-                },
-                {
-                  "id": 46,
-                  "name": "locales",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true,
-                    "isOptional": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "A locale string or array of locale strings that contain one or more language or locale tags. If you include more than one locale string, list them in descending order of priority so that the first entry is the preferred locale. If you omit this parameter, the default locale of the JavaScript runtime is used. This parameter must conform to BCP 47 standards; see the Intl.Collator object for details."
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "union",
-                    "types": [
-                      {
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 450,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=450"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 44,
+                      "name": "that",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "String to compare to target string"
+                          }
+                        ]
+                      },
+                      "type": {
                         "type": "intrinsic",
                         "name": "string"
-                      },
-                      {
-                        "type": "array",
-                        "elementType": {
-                          "type": "intrinsic",
-                          "name": "string"
-                        }
                       }
-                    ]
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "number"
                   }
                 },
                 {
-                  "id": 47,
-                  "name": "options",
-                  "variant": "param",
-                  "kind": 32768,
+                  "id": 45,
+                  "name": "localeCompare",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
-                    "isExternal": true,
-                    "isOptional": true
+                    "isExternal": true
                   },
                   "comment": {
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "An object that contains one or more properties that specify comparison options. see the Intl.Collator object for details."
+                        "text": "Determines whether two strings are equivalent in the current or specified locale."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "reference",
-                    "target": {
-                      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                      "qualifiedName": "Intl.CollatorOptions"
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 4553,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=4553"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 46,
+                      "name": "that",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "String to compare to target string"
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "string"
+                      }
                     },
-                    "name": "CollatorOptions",
-                    "package": "typescript",
-                    "qualifiedName": "Intl.CollatorOptions"
+                    {
+                      "id": 47,
+                      "name": "locales",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A locale string or array of locale strings that contain one or more language or locale tags. If you include more than one locale string, list them in descending order of priority so that the first entry is the preferred locale. If you omit this parameter, the default locale of the JavaScript runtime is used. This parameter must conform to BCP 47 standards; see the Intl.Collator object for details."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "array",
+                            "elementType": {
+                              "type": "intrinsic",
+                              "name": "string"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 48,
+                      "name": "options",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "An object that contains one or more properties that specify comparison options. see the Intl.Collator object for details."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "reference",
+                        "target": {
+                          "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                          "qualifiedName": "Intl.CollatorOptions"
+                        },
+                        "name": "CollatorOptions",
+                        "package": "typescript",
+                        "qualifiedName": "Intl.CollatorOptions"
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "number"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "number"
-              }
-            }
-          ]
-        },
-        {
-          "id": 48,
-          "name": "match",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 456,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=456"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 49,
               "name": "match",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Matches a string with a regular expression, and returns an array containing the results of that search."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -1247,12 +1229,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=456"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 50,
-                  "name": "regexp",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "match",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -1260,80 +1242,74 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "A variable name or string literal containing the regular expression pattern and flags."
+                        "text": "Matches a string with a regular expression, and returns an array containing the results of that search."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "union",
-                    "types": [
-                      {
-                        "type": "intrinsic",
-                        "name": "string"
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 456,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=456"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 51,
+                      "name": "regexp",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
                       },
-                      {
-                        "type": "reference",
-                        "target": {
-                          "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                          "qualifiedName": "RegExp"
-                        },
-                        "name": "RegExp",
-                        "package": "typescript"
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A variable name or string literal containing the regular expression pattern and flags."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "reference",
+                            "target": {
+                              "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                              "qualifiedName": "RegExp"
+                            },
+                            "name": "RegExp",
+                            "package": "typescript"
+                          }
+                        ]
                       }
-                    ]
+                    }
+                  ],
+                  "type": {
+                    "type": "reference",
+                    "target": {
+                      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "qualifiedName": "RegExpMatchArray"
+                    },
+                    "name": "RegExpMatchArray",
+                    "package": "typescript"
                   }
                 }
-              ],
-              "type": {
-                "type": "reference",
-                "target": {
-                  "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                  "qualifiedName": "RegExpMatchArray"
-                },
-                "name": "RegExpMatchArray",
-                "package": "typescript"
-              }
-            }
-          ]
-        },
-        {
-          "id": 51,
-          "name": "replace",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 463,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=463"
+              ]
             },
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 470,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=470"
-            }
-          ],
-          "signatures": [
             {
               "id": 52,
               "name": "replace",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Replaces text in a string, using a regular expression or search string."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -1341,132 +1317,7 @@
                   "line": 463,
                   "character": 4,
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=463"
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 53,
-                  "name": "searchValue",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "A string or regular expression to search for."
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "union",
-                    "types": [
-                      {
-                        "type": "intrinsic",
-                        "name": "string"
-                      },
-                      {
-                        "type": "reference",
-                        "target": {
-                          "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                          "qualifiedName": "RegExp"
-                        },
-                        "name": "RegExp",
-                        "package": "typescript"
-                      }
-                    ]
-                  }
                 },
-                {
-                  "id": 54,
-                  "name": "replaceValue",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "A string containing the text to replace. When the "
-                      },
-                      {
-                        "kind": "inline-tag",
-                        "tag": "@linkcode",
-                        "text": "searchValue",
-                        "target": 53
-                      },
-                      {
-                        "kind": "text",
-                        "text": " is a "
-                      },
-                      {
-                        "kind": "code",
-                        "text": "`RegExp`"
-                      },
-                      {
-                        "kind": "text",
-                        "text": ", all matches are replaced if the "
-                      },
-                      {
-                        "kind": "code",
-                        "text": "`g`"
-                      },
-                      {
-                        "kind": "text",
-                        "text": " flag is set (or only those matches at the beginning, if the "
-                      },
-                      {
-                        "kind": "code",
-                        "text": "`y`"
-                      },
-                      {
-                        "kind": "text",
-                        "text": " flag is also present). Otherwise, only the first match of "
-                      },
-                      {
-                        "kind": "inline-tag",
-                        "tag": "@linkcode",
-                        "text": "searchValue",
-                        "target": 53
-                      },
-                      {
-                        "kind": "text",
-                        "text": " is replaced."
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "string"
-                  }
-                }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            },
-            {
-              "id": 55,
-              "name": "replace",
-              "variant": "signature",
-              "kind": 4096,
-              "flags": {
-                "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Replaces text in a string, using a regular expression or search string."
-                  }
-                ]
-              },
-              "sources": [
                 {
                   "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
                   "line": 470,
@@ -1474,12 +1325,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=470"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
-                  "id": 56,
-                  "name": "searchValue",
-                  "variant": "param",
-                  "kind": 32768,
+                  "id": 53,
+                  "name": "replace",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -1487,69 +1338,208 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "A string to search for."
+                        "text": "Replaces text in a string, using a regular expression or search string."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "union",
-                    "types": [
-                      {
-                        "type": "intrinsic",
-                        "name": "string"
-                      },
-                      {
-                        "type": "reference",
-                        "target": {
-                          "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                          "qualifiedName": "RegExp"
-                        },
-                        "name": "RegExp",
-                        "package": "typescript"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "id": 57,
-                  "name": "replacer",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "A function that returns the replacement text."
-                      }
-                    ]
-                  },
-                  "type": {
-                    "type": "reflection",
-                    "declaration": {
-                      "id": 58,
-                      "name": "__type",
-                      "variant": "declaration",
-                      "kind": 65536,
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 463,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=463"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 54,
+                      "name": "searchValue",
+                      "variant": "param",
+                      "kind": 32768,
                       "flags": {
                         "isExternal": true
                       },
-                      "sources": [
-                        {
-                          "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                          "line": 470,
-                          "character": 52,
-                          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=470"
-                        }
-                      ],
-                      "signatures": [
-                        {
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A string or regular expression to search for."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "reference",
+                            "target": {
+                              "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                              "qualifiedName": "RegExp"
+                            },
+                            "name": "RegExp",
+                            "package": "typescript"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 55,
+                      "name": "replaceValue",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A string containing the text to replace. When the "
+                          },
+                          {
+                            "kind": "inline-tag",
+                            "tag": "@linkcode",
+                            "text": "searchValue",
+                            "target": 54
+                          },
+                          {
+                            "kind": "text",
+                            "text": " is a "
+                          },
+                          {
+                            "kind": "code",
+                            "text": "`RegExp`"
+                          },
+                          {
+                            "kind": "text",
+                            "text": ", all matches are replaced if the "
+                          },
+                          {
+                            "kind": "code",
+                            "text": "`g`"
+                          },
+                          {
+                            "kind": "text",
+                            "text": " flag is set (or only those matches at the beginning, if the "
+                          },
+                          {
+                            "kind": "code",
+                            "text": "`y`"
+                          },
+                          {
+                            "kind": "text",
+                            "text": " flag is also present). Otherwise, only the first match of "
+                          },
+                          {
+                            "kind": "inline-tag",
+                            "tag": "@linkcode",
+                            "text": "searchValue",
+                            "target": 54
+                          },
+                          {
+                            "kind": "text",
+                            "text": " is replaced."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "string"
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
+                  }
+                },
+                {
+                  "id": 56,
+                  "name": "replace",
+                  "variant": "signature",
+                  "kind": 4096,
+                  "flags": {
+                    "isExternal": true
+                  },
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "Replaces text in a string, using a regular expression or search string."
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 470,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=470"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 57,
+                      "name": "searchValue",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A string to search for."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "reference",
+                            "target": {
+                              "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                              "qualifiedName": "RegExp"
+                            },
+                            "name": "RegExp",
+                            "package": "typescript"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": 58,
+                      "name": "replacer",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A function that returns the replacement text."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "reflection",
+                        "declaration": {
                           "id": 59,
                           "name": "__type",
-                          "variant": "signature",
-                          "kind": 4096,
+                          "variant": "declaration",
+                          "kind": 65536,
                           "flags": {
                             "isExternal": true
                           },
@@ -1561,87 +1551,79 @@
                               "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=470"
                             }
                           ],
-                          "parameters": [
+                          "signatures": [
                             {
                               "id": 60,
-                              "name": "substring",
-                              "variant": "param",
-                              "kind": 32768,
+                              "name": "__type",
+                              "variant": "signature",
+                              "kind": 4096,
                               "flags": {
                                 "isExternal": true
                               },
+                              "sources": [
+                                {
+                                  "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                  "line": 470,
+                                  "character": 52,
+                                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=470"
+                                }
+                              ],
+                              "parameters": [
+                                {
+                                  "id": 61,
+                                  "name": "substring",
+                                  "variant": "param",
+                                  "kind": 32768,
+                                  "flags": {
+                                    "isExternal": true
+                                  },
+                                  "type": {
+                                    "type": "intrinsic",
+                                    "name": "string"
+                                  }
+                                },
+                                {
+                                  "id": 62,
+                                  "name": "args",
+                                  "variant": "param",
+                                  "kind": 32768,
+                                  "flags": {
+                                    "isExternal": true,
+                                    "isRest": true
+                                  },
+                                  "type": {
+                                    "type": "array",
+                                    "elementType": {
+                                      "type": "intrinsic",
+                                      "name": "any"
+                                    }
+                                  }
+                                }
+                              ],
                               "type": {
                                 "type": "intrinsic",
                                 "name": "string"
                               }
-                            },
-                            {
-                              "id": 61,
-                              "name": "args",
-                              "variant": "param",
-                              "kind": 32768,
-                              "flags": {
-                                "isExternal": true,
-                                "isRest": true
-                              },
-                              "type": {
-                                "type": "array",
-                                "elementType": {
-                                  "type": "intrinsic",
-                                  "name": "any"
-                                }
-                              }
                             }
-                          ],
-                          "type": {
-                            "type": "intrinsic",
-                            "name": "string"
-                          }
+                          ]
                         }
-                      ]
+                      }
                     }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 62,
-          "name": "search",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 476,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=476"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 63,
               "name": "search",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Finds the first substring match in a regular expression search."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -1651,12 +1633,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=476"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 64,
-                  "name": "regexp",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "search",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -1664,69 +1646,69 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The regular expression pattern and applicable flags."
+                        "text": "Finds the first substring match in a regular expression search."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "union",
-                    "types": [
-                      {
-                        "type": "intrinsic",
-                        "name": "string"
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 476,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=476"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 65,
+                      "name": "regexp",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
                       },
-                      {
-                        "type": "reference",
-                        "target": {
-                          "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                          "qualifiedName": "RegExp"
-                        },
-                        "name": "RegExp",
-                        "package": "typescript"
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The regular expression pattern and applicable flags."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "reference",
+                            "target": {
+                              "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                              "qualifiedName": "RegExp"
+                            },
+                            "name": "RegExp",
+                            "package": "typescript"
+                          }
+                        ]
                       }
-                    ]
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "number"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "number"
-              }
-            }
-          ]
-        },
-        {
-          "id": 65,
-          "name": "slice",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 484,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=484"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 66,
               "name": "slice",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns a section of a string."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -1736,91 +1718,91 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=484"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 67,
-                  "name": "start",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "slice",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
-                    "isExternal": true,
-                    "isOptional": true
+                    "isExternal": true
                   },
                   "comment": {
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The index to the beginning of the specified portion of stringObj."
+                        "text": "Returns a section of a string."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "number"
-                  }
-                },
-                {
-                  "id": 68,
-                  "name": "end",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true,
-                    "isOptional": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end.\nIf this value is not specified, the substring continues to the end of stringObj."
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 484,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=484"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 68,
+                      "name": "start",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The index to the beginning of the specified portion of stringObj."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
                       }
-                    ]
-                  },
+                    },
+                    {
+                      "id": 69,
+                      "name": "end",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end.\nIf this value is not specified, the substring continues to the end of stringObj."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    }
+                  ],
                   "type": {
                     "type": "intrinsic",
-                    "name": "number"
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 69,
-          "name": "split",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 491,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=491"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 70,
               "name": "split",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Split a string into substrings using the specified separator and return them as an array."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -1830,12 +1812,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=491"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 71,
-                  "name": "separator",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "split",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -1843,105 +1825,94 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "A string that identifies character or characters to use in separating the string. If omitted, a single-element array containing the entire string is returned."
+                        "text": "Split a string into substrings using the specified separator and return them as an array."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "union",
-                    "types": [
-                      {
-                        "type": "intrinsic",
-                        "name": "string"
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 491,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=491"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 72,
+                      "name": "separator",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
                       },
-                      {
-                        "type": "reference",
-                        "target": {
-                          "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-                          "qualifiedName": "RegExp"
-                        },
-                        "name": "RegExp",
-                        "package": "typescript"
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A string that identifies character or characters to use in separating the string. If omitted, a single-element array containing the entire string is returned."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "reference",
+                            "target": {
+                              "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                              "qualifiedName": "RegExp"
+                            },
+                            "name": "RegExp",
+                            "package": "typescript"
+                          }
+                        ]
                       }
-                    ]
-                  }
-                },
-                {
-                  "id": 72,
-                  "name": "limit",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true,
-                    "isOptional": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "A value used to limit the number of elements returned in the array."
+                    },
+                    {
+                      "id": 73,
+                      "name": "limit",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "A value used to limit the number of elements returned in the array."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
                       }
-                    ]
-                  },
+                    }
+                  ],
                   "type": {
-                    "type": "intrinsic",
-                    "name": "number"
+                    "type": "array",
+                    "elementType": {
+                      "type": "intrinsic",
+                      "name": "string"
+                    }
                   }
                 }
-              ],
-              "type": {
-                "type": "array",
-                "elementType": {
-                  "type": "intrinsic",
-                  "name": "string"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": 90,
-          "name": "substr",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 526,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=526"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 91,
               "name": "substr",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Gets a substring beginning at the specified location and having the specified length."
-                  }
-                ],
-                "blockTags": [
-                  {
-                    "tag": "@deprecated",
-                    "content": [
-                      {
-                        "kind": "text",
-                        "text": "A legacy feature for browser compatibility"
-                      }
-                    ]
-                  }
-                ]
               },
               "sources": [
                 {
@@ -1951,12 +1922,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=526"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 92,
-                  "name": "from",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "substr",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -1964,77 +1935,88 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The starting position of the desired substring. The index of the first character in the string is zero."
+                        "text": "Gets a substring beginning at the specified location and having the specified length."
                       }
-                    ]
-                  },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "number"
-                  }
-                },
-                {
-                  "id": 93,
-                  "name": "length",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true,
-                    "isOptional": true
-                  },
-                  "comment": {
-                    "summary": [
+                    ],
+                    "blockTags": [
                       {
-                        "kind": "text",
-                        "text": "The number of characters to include in the returned substring."
+                        "tag": "@deprecated",
+                        "content": [
+                          {
+                            "kind": "text",
+                            "text": "A legacy feature for browser compatibility"
+                          }
+                        ]
                       }
                     ]
                   },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 526,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=526"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 93,
+                      "name": "from",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The starting position of the desired substring. The index of the first character in the string is zero."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    },
+                    {
+                      "id": 94,
+                      "name": "length",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The number of characters to include in the returned substring."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    }
+                  ],
                   "type": {
                     "type": "intrinsic",
-                    "name": "number"
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 73,
-          "name": "substring",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 499,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=499"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 74,
               "name": "substring",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns the substring at the specified location within a String object."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -2044,12 +2026,12 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=499"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 75,
-                  "name": "start",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "substring",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
                     "isExternal": true
                   },
@@ -2057,77 +2039,77 @@
                     "summary": [
                       {
                         "kind": "text",
-                        "text": "The zero-based index number indicating the beginning of the substring."
+                        "text": "Returns the substring at the specified location within a String object."
                       }
                     ]
                   },
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "number"
-                  }
-                },
-                {
-                  "id": 76,
-                  "name": "end",
-                  "variant": "param",
-                  "kind": 32768,
-                  "flags": {
-                    "isExternal": true,
-                    "isOptional": true
-                  },
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "Zero-based index number indicating the end of the substring. The substring includes the characters up to, but not including, the character indicated by end.\nIf end is omitted, the characters from start through the end of the original string are returned."
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 499,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=499"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 76,
+                      "name": "start",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "The zero-based index number indicating the beginning of the substring."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
                       }
-                    ]
-                  },
+                    },
+                    {
+                      "id": 77,
+                      "name": "end",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "comment": {
+                        "summary": [
+                          {
+                            "kind": "text",
+                            "text": "Zero-based index number indicating the end of the substring. The substring includes the characters up to, but not including, the character indicated by end.\nIf end is omitted, the characters from start through the end of the original string are returned."
+                          }
+                        ]
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "number"
+                      }
+                    }
+                  ],
                   "type": {
                     "type": "intrinsic",
-                    "name": "number"
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 79,
-          "name": "toLocaleLowerCase",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 505,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=505"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 80,
               "name": "toLocaleLowerCase",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Converts all alphabetic characters to lowercase, taking into account the host environment's current locale."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -2137,73 +2119,73 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=505"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 81,
-                  "name": "locales",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "toLocaleLowerCase",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
-                    "isExternal": true,
-                    "isOptional": true
+                    "isExternal": true
                   },
-                  "type": {
-                    "type": "union",
-                    "types": [
+                  "comment": {
+                    "summary": [
                       {
-                        "type": "intrinsic",
-                        "name": "string"
-                      },
-                      {
-                        "type": "array",
-                        "elementType": {
-                          "type": "intrinsic",
-                          "name": "string"
-                        }
+                        "kind": "text",
+                        "text": "Converts all alphabetic characters to lowercase, taking into account the host environment's current locale."
                       }
                     ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 505,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=505"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 82,
+                      "name": "locales",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "array",
+                            "elementType": {
+                              "type": "intrinsic",
+                              "name": "string"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 84,
-          "name": "toLocaleUpperCase",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 511,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=511"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 85,
               "name": "toLocaleUpperCase",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns a string where all alphabetic characters have been converted to uppercase, taking into account the host environment's current locale."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -2213,73 +2195,73 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=511"
                 }
               ],
-              "parameters": [
+              "signatures": [
                 {
                   "id": 86,
-                  "name": "locales",
-                  "variant": "param",
-                  "kind": 32768,
+                  "name": "toLocaleUpperCase",
+                  "variant": "signature",
+                  "kind": 4096,
                   "flags": {
-                    "isExternal": true,
-                    "isOptional": true
+                    "isExternal": true
                   },
-                  "type": {
-                    "type": "union",
-                    "types": [
+                  "comment": {
+                    "summary": [
                       {
-                        "type": "intrinsic",
-                        "name": "string"
-                      },
-                      {
-                        "type": "array",
-                        "elementType": {
-                          "type": "intrinsic",
-                          "name": "string"
-                        }
+                        "kind": "text",
+                        "text": "Returns a string where all alphabetic characters have been converted to uppercase, taking into account the host environment's current locale."
                       }
                     ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 511,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=511"
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "id": 87,
+                      "name": "locales",
+                      "variant": "param",
+                      "kind": 32768,
+                      "flags": {
+                        "isExternal": true,
+                        "isOptional": true
+                      },
+                      "type": {
+                        "type": "union",
+                        "types": [
+                          {
+                            "type": "intrinsic",
+                            "name": "string"
+                          },
+                          {
+                            "type": "array",
+                            "elementType": {
+                              "type": "intrinsic",
+                              "name": "string"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
                   }
                 }
-              ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 77,
-          "name": "toLowerCase",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 502,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=502"
-            }
-          ],
-          "signatures": [
+              ]
+            },
             {
               "id": 78,
               "name": "toLowerCase",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Converts all the alphabetic characters in a string to lowercase."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -2289,45 +2271,45 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=502"
                 }
               ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 82,
-          "name": "toUpperCase",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 508,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=508"
-            }
-          ],
-          "signatures": [
+              "signatures": [
+                {
+                  "id": 79,
+                  "name": "toLowerCase",
+                  "variant": "signature",
+                  "kind": 4096,
+                  "flags": {
+                    "isExternal": true
+                  },
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "Converts all the alphabetic characters in a string to lowercase."
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 502,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=502"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
+                  }
+                }
+              ]
+            },
             {
               "id": 83,
               "name": "toUpperCase",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Converts all the alphabetic characters in a string to uppercase."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -2337,45 +2319,45 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=508"
                 }
               ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 87,
-          "name": "trim",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 514,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=514"
-            }
-          ],
-          "signatures": [
+              "signatures": [
+                {
+                  "id": 84,
+                  "name": "toUpperCase",
+                  "variant": "signature",
+                  "kind": 4096,
+                  "flags": {
+                    "isExternal": true
+                  },
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "Converts all the alphabetic characters in a string to uppercase."
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 508,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=508"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
+                  }
+                }
+              ]
+            },
             {
               "id": 88,
               "name": "trim",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Removes the leading and trailing white space and line terminator characters from a string."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -2385,45 +2367,45 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=514"
                 }
               ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 94,
-          "name": "valueOf",
-          "variant": "declaration",
-          "kind": 2048,
-          "flags": {
-            "isExternal": true
-          },
-          "sources": [
-            {
-              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
-              "line": 529,
-              "character": 4,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=529"
-            }
-          ],
-          "signatures": [
+              "signatures": [
+                {
+                  "id": 89,
+                  "name": "trim",
+                  "variant": "signature",
+                  "kind": 4096,
+                  "flags": {
+                    "isExternal": true
+                  },
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "Removes the leading and trailing white space and line terminator characters from a string."
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 514,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=514"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
+                  }
+                }
+              ]
+            },
             {
               "id": 95,
               "name": "valueOf",
-              "variant": "signature",
-              "kind": 4096,
+              "variant": "declaration",
+              "kind": 2048,
               "flags": {
                 "isExternal": true
-              },
-              "comment": {
-                "summary": [
-                  {
-                    "kind": "text",
-                    "text": "Returns the primitive value of the specified object."
-                  }
-                ]
               },
               "sources": [
                 {
@@ -2433,72 +2415,82 @@
                   "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=529"
                 }
               ],
-              "type": {
-                "type": "intrinsic",
-                "name": "string"
-              }
+              "signatures": [
+                {
+                  "id": 96,
+                  "name": "valueOf",
+                  "variant": "signature",
+                  "kind": 4096,
+                  "flags": {
+                    "isExternal": true
+                  },
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "Returns the primitive value of the specified object."
+                      }
+                    ]
+                  },
+                  "sources": [
+                    {
+                      "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                      "line": 529,
+                      "character": 4,
+                      "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/typescript/lib/lib.es5.d.ts#line=529"
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
+                  }
+                }
+              ]
             }
-          ]
-        }
-      ],
-      "groups": [
-        {
-          "title": "Properties",
-          "children": [
-            23,
-            21,
-            12,
-            6,
-            13,
-            14,
-            89,
-            22,
-            16,
-            15,
-            7,
-            17
-          ]
-        },
-        {
-          "title": "Methods",
-          "children": [
-            24,
-            27,
-            30,
-            33,
-            37,
-            41,
-            48,
-            51,
-            62,
-            65,
-            69,
-            90,
-            73,
-            79,
-            84,
-            77,
-            82,
-            87,
-            94
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "fileName": "src/StyledComponent.ts",
-          "line": 4,
-          "character": 13,
-          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/StyledComponent.ts#line=4"
-        }
-      ],
-      "signatures": [
-        {
-          "id": 2,
-          "name": "StyledComponent",
-          "variant": "signature",
-          "kind": 4096,
-          "flags": {},
+          ],
+          "groups": [
+            {
+              "title": "Properties",
+              "children": [
+                24,
+                22,
+                13,
+                7,
+                14,
+                15,
+                90,
+                23,
+                17,
+                16,
+                8,
+                18
+              ]
+            },
+            {
+              "title": "Methods",
+              "children": [
+                25,
+                28,
+                31,
+                34,
+                38,
+                42,
+                49,
+                52,
+                63,
+                66,
+                70,
+                91,
+                74,
+                80,
+                85,
+                78,
+                83,
+                88,
+                95
+              ]
+            }
+          ],
           "sources": [
             {
               "fileName": "src/StyledComponent.ts",
@@ -2507,67 +2499,100 @@
               "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/StyledComponent.ts#line=4"
             }
           ],
-          "typeParameters": [
+          "signatures": [
             {
               "id": 3,
-              "name": "AsTarget",
-              "variant": "typeParam",
-              "kind": 131072,
+              "name": "StyledComponent",
+              "variant": "signature",
+              "kind": 4096,
               "flags": {},
+              "sources": [
+                {
+                  "fileName": "src/StyledComponent.ts",
+                  "line": 4,
+                  "character": 13,
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/StyledComponent.ts#line=4"
+                }
+              ],
+              "typeParameters": [
+                {
+                  "id": 4,
+                  "name": "AsTarget",
+                  "variant": "typeParam",
+                  "kind": 131072,
+                  "flags": {},
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "any"
+                  },
+                  "default": {
+                    "type": "intrinsic",
+                    "name": "void"
+                  }
+                },
+                {
+                  "id": 5,
+                  "name": "ForwardedAsTarget",
+                  "variant": "typeParam",
+                  "kind": 131072,
+                  "flags": {},
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "any"
+                  },
+                  "default": {
+                    "type": "intrinsic",
+                    "name": "void"
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 6,
+                  "name": "props",
+                  "variant": "param",
+                  "kind": 32768,
+                  "flags": {},
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "any"
+                  }
+                }
+              ],
               "type": {
-                "type": "intrinsic",
-                "name": "any"
-              },
-              "default": {
-                "type": "intrinsic",
-                "name": "void"
-              }
-            },
-            {
-              "id": 4,
-              "name": "ForwardedAsTarget",
-              "variant": "typeParam",
-              "kind": 131072,
-              "flags": {},
-              "type": {
-                "type": "intrinsic",
-                "name": "any"
-              },
-              "default": {
-                "type": "intrinsic",
-                "name": "void"
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "",
+                  "qualifiedName": "React.JSX.Element"
+                },
+                "name": "Element",
+                "qualifiedName": "React.JSX.Element"
               }
             }
-          ],
-          "parameters": [
-            {
-              "id": 5,
-              "name": "props",
-              "variant": "param",
-              "kind": 32768,
-              "flags": {},
-              "type": {
-                "type": "intrinsic",
-                "name": "any"
-              }
-            }
-          ],
-          "type": {
-            "type": "reference",
-            "target": {
-              "sourceFileName": "",
-              "qualifiedName": "React.JSX.Element"
-            },
-            "name": "Element",
-            "qualifiedName": "React.JSX.Element"
-          }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "title": "Functions",
+          "children": [
+            2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "fileName": "src/StyledComponent.ts",
+          "line": 1,
+          "character": 0,
+          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/StyledComponent.ts#line=1"
         }
       ]
     }
   ],
   "groups": [
     {
-      "title": "Functions",
+      "title": "Modules",
       "children": [
         1
       ]
@@ -2581,81 +2606,77 @@
     }
   ],
   "symbolIdMap": {
-    "0": {
+    "1": {
       "sourceFileName": "src/StyledComponent.ts",
       "qualifiedName": ""
     },
-    "1": {
-      "sourceFileName": "src/StyledComponent.ts",
-      "qualifiedName": "StyledComponent"
-    },
     "2": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "sourceFileName": "src/StyledComponent.ts",
       "qualifiedName": "StyledComponent"
     },
     "3": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "AsTarget"
+      "qualifiedName": "StyledComponent"
     },
     "4": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "ForwardedAsTarget"
+      "qualifiedName": "AsTarget"
     },
     "5": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "props"
+      "qualifiedName": "ForwardedAsTarget"
     },
     "6": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledComponentBase.defaultProps"
+      "qualifiedName": "props"
     },
     "7": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "toString"
+      "qualifiedName": "IStyledComponentBase.defaultProps"
     },
     "8": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "__type"
+      "qualifiedName": "toString"
     },
     "9": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "__type"
     },
     "10": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toString"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "__type"
     },
     "11": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
       "qualifiedName": "String.toString"
     },
     "12": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.componentStyle"
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.toString"
     },
     "13": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.foldedComponentIds"
+      "qualifiedName": "IStyledStatics.componentStyle"
     },
     "14": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.inlineStyle"
+      "qualifiedName": "IStyledStatics.foldedComponentIds"
     },
     "15": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.target"
+      "qualifiedName": "IStyledStatics.inlineStyle"
     },
     "16": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.styledComponentId"
+      "qualifiedName": "IStyledStatics.target"
     },
     "17": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.warnTooManyClasses"
+      "qualifiedName": "IStyledStatics.styledComponentId"
     },
     "18": {
-      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
-      "qualifiedName": "__type"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "IStyledStatics.warnTooManyClasses"
     },
     "19": {
       "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
@@ -2663,23 +2684,23 @@
     },
     "20": {
       "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
-      "qualifiedName": "className"
+      "qualifiedName": "__type"
     },
     "21": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "CommonStatics.attrs"
+      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
+      "qualifiedName": "className"
     },
     "22": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "CommonStatics.shouldForwardProp"
+      "qualifiedName": "CommonStatics.attrs"
     },
     "23": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "__type._sc"
+      "qualifiedName": "CommonStatics.shouldForwardProp"
     },
     "24": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.charAt"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "__type._sc"
     },
     "25": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2687,11 +2708,11 @@
     },
     "26": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "pos"
+      "qualifiedName": "String.charAt"
     },
     "27": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.charCodeAt"
+      "qualifiedName": "pos"
     },
     "28": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2699,11 +2720,11 @@
     },
     "29": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "index"
+      "qualifiedName": "String.charCodeAt"
     },
     "30": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.concat"
+      "qualifiedName": "index"
     },
     "31": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2711,11 +2732,11 @@
     },
     "32": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "strings"
+      "qualifiedName": "String.concat"
     },
     "33": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.indexOf"
+      "qualifiedName": "strings"
     },
     "34": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2723,15 +2744,15 @@
     },
     "35": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchString"
+      "qualifiedName": "String.indexOf"
     },
     "36": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "position"
+      "qualifiedName": "searchString"
     },
     "37": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.lastIndexOf"
+      "qualifiedName": "position"
     },
     "38": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2739,15 +2760,15 @@
     },
     "39": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchString"
+      "qualifiedName": "String.lastIndexOf"
     },
     "40": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "position"
+      "qualifiedName": "searchString"
     },
     "41": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.localeCompare"
+      "qualifiedName": "position"
     },
     "42": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2755,27 +2776,27 @@
     },
     "43": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "that"
+      "qualifiedName": "String.localeCompare"
     },
     "44": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.localeCompare"
+      "qualifiedName": "that"
     },
     "45": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "that"
+      "qualifiedName": "String.localeCompare"
     },
     "46": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "locales"
+      "qualifiedName": "that"
     },
     "47": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "options"
+      "qualifiedName": "locales"
     },
     "48": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.match"
+      "qualifiedName": "options"
     },
     "49": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2783,11 +2804,11 @@
     },
     "50": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "regexp"
+      "qualifiedName": "String.match"
     },
     "51": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.replace"
+      "qualifiedName": "regexp"
     },
     "52": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2795,27 +2816,27 @@
     },
     "53": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchValue"
+      "qualifiedName": "String.replace"
     },
     "54": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "replaceValue"
+      "qualifiedName": "searchValue"
     },
     "55": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.replace"
+      "qualifiedName": "replaceValue"
     },
     "56": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchValue"
+      "qualifiedName": "String.replace"
     },
     "57": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "replacer"
+      "qualifiedName": "searchValue"
     },
     "58": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "__type"
+      "qualifiedName": "replacer"
     },
     "59": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2823,15 +2844,15 @@
     },
     "60": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "substring"
+      "qualifiedName": "__type"
     },
     "61": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "args"
+      "qualifiedName": "substring"
     },
     "62": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.search"
+      "qualifiedName": "args"
     },
     "63": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2839,11 +2860,11 @@
     },
     "64": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "regexp"
+      "qualifiedName": "String.search"
     },
     "65": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.slice"
+      "qualifiedName": "regexp"
     },
     "66": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2851,15 +2872,15 @@
     },
     "67": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "start"
+      "qualifiedName": "String.slice"
     },
     "68": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "end"
+      "qualifiedName": "start"
     },
     "69": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.split"
+      "qualifiedName": "end"
     },
     "70": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2867,15 +2888,15 @@
     },
     "71": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "separator"
+      "qualifiedName": "String.split"
     },
     "72": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "limit"
+      "qualifiedName": "separator"
     },
     "73": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.substring"
+      "qualifiedName": "limit"
     },
     "74": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2883,15 +2904,15 @@
     },
     "75": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "start"
+      "qualifiedName": "String.substring"
     },
     "76": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "end"
+      "qualifiedName": "start"
     },
     "77": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLowerCase"
+      "qualifiedName": "end"
     },
     "78": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2899,7 +2920,7 @@
     },
     "79": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLocaleLowerCase"
+      "qualifiedName": "String.toLowerCase"
     },
     "80": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2907,11 +2928,11 @@
     },
     "81": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "locales"
+      "qualifiedName": "String.toLocaleLowerCase"
     },
     "82": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toUpperCase"
+      "qualifiedName": "locales"
     },
     "83": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2919,7 +2940,7 @@
     },
     "84": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLocaleUpperCase"
+      "qualifiedName": "String.toUpperCase"
     },
     "85": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2927,11 +2948,11 @@
     },
     "86": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "locales"
+      "qualifiedName": "String.toLocaleUpperCase"
     },
     "87": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.trim"
+      "qualifiedName": "locales"
     },
     "88": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2939,11 +2960,11 @@
     },
     "89": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.length"
+      "qualifiedName": "String.trim"
     },
     "90": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.substr"
+      "qualifiedName": "String.length"
     },
     "91": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -2951,17 +2972,21 @@
     },
     "92": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "from"
+      "qualifiedName": "String.substr"
     },
     "93": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "length"
+      "qualifiedName": "from"
     },
     "94": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.valueOf"
+      "qualifiedName": "length"
     },
     "95": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.valueOf"
+    },
+    "96": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
       "qualifiedName": "String.valueOf"
     }
@@ -2971,7 +2996,7 @@
       "1": "src/StyledComponent.ts"
     },
     "reflections": {
-      "1": 0
+      "1": 1
     }
   }
 }

@@ -29,7 +29,7 @@ export const getTypedoc = async (file) => {
       pretty: true,
       disableGit: true,
       skipErrorChecking: true,
-      excludeExternals: true,
+      excludeExternals: false,
       excludeNotDocumented: false,
       excludeNotDocumentedKinds: [],
       excludeInternal: false,
@@ -37,7 +37,9 @@ export const getTypedoc = async (file) => {
       excludeProtected: false,
       excludeReferences: false,
       excludeCategories: [],
+      disableSources: false,
       logLevel: 'Verbose',
+      alwaysCreateEntryPointModule: true,
       sourceLinkTemplate: 'https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/{path}#line={line}'
     },
     // a subset of DEFAULT_READERS https://github.com/TypeStrong/typedoc/blob/f0f3d96f53ec0cc7767c21d6d5549305a986cdf0/src/lib/application.ts#L70
