@@ -1,0 +1,63 @@
+{
+  "id": 6,
+  "name": "next-yak-typedoc",
+  "variant": "project",
+  "kind": 1,
+  "flags": {},
+  "children": [
+    {
+      "id": 7,
+      "name": "YakComponent",
+      "variant": "declaration",
+      "kind": 32,
+      "flags": {
+        "isConst": true
+      },
+      "sources": [
+        {
+          "fileName": "src/YakComponent.ts",
+          "line": 4,
+          "character": 13
+        }
+      ],
+      "type": {
+        "type": "intrinsic",
+        "name": "any"
+      },
+      "defaultValue": "..."
+    }
+  ],
+  "groups": [
+    {
+      "title": "Variables",
+      "children": [
+        7
+      ]
+    }
+  ],
+  "packageName": "next-yak-typedoc",
+  "readme": [
+    {
+      "kind": "text",
+      "text": "# typedoc-next-yak\n\n[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak)"
+    }
+  ],
+  "symbolIdMap": {
+    "6": {
+      "sourceFileName": "src/YakComponent.ts",
+      "qualifiedName": ""
+    },
+    "7": {
+      "sourceFileName": "src/YakComponent.ts",
+      "qualifiedName": "YakComponent"
+    }
+  },
+  "files": {
+    "entries": {
+      "1": "src/YakComponent.ts"
+    },
+    "reflections": {
+      "1": 6
+    }
+  }
+}

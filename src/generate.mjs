@@ -62,14 +62,14 @@ const findChild = (docs, name) => {
 
 // Styled component
 const styledDocs = await getTypedoc('StyledComponent.ts');
-const styledFilename = path.resolve(rootDir, "./styled-output.json")
+const styledFilename = path.resolve(rootDir, "output/styled-output.json")
 fs.writeFileSync(styledFilename, JSON.stringify(styledDocs, null, 2));
 console.log("Wrote all styled docs to", styledFilename)
 console.log("Type of StyledComponent: \n\n ", findChild(styledDocs, "StyledComponent")?.type)
 
 // Yak component
 const yakDocs = await getTypedoc('YakComponent.ts');
-const yakFilename = path.resolve(rootDir, "./yak-output.json")
-fs.writeFileSync(styledFilename, JSON.stringify(styledDocs, null, 2));
-console.log("Wrote all yak docs to", styledFilename)
-console.log("Type of YakComponent: \n\n ", findChild(styledDocs, "YakComponent")?.type)
+const yakFilename = path.resolve(rootDir, "output/yak-output.json")
+fs.writeFileSync(yakFilename, JSON.stringify(yakDocs, null, 2));
+console.log("Wrote all yak docs to", yakFilename)
+console.log("Type of YakComponent: \n\n ", findChild(yakDocs, "YakComponent")?.type)
