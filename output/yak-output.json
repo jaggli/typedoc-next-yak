@@ -9,10 +9,316 @@
       "id": 97,
       "name": "YakComponent",
       "variant": "declaration",
-      "kind": 32,
-      "flags": {
-        "isConst": true
-      },
+      "kind": 64,
+      "flags": {},
+      "children": [
+        {
+          "id": 105,
+          "name": "[yakComponentSymbol]",
+          "variant": "declaration",
+          "kind": 1024,
+          "flags": {
+            "isExternal": true
+          },
+          "sources": [
+            {
+              "fileName": "node_modules/next-yak/dist/index.d.ts",
+              "line": 96,
+              "character": 4,
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/next-yak/dist/index.d.ts#line=96"
+            }
+          ],
+          "type": {
+            "type": "tuple",
+            "elements": [
+              {
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "node_modules/@types/react/index.d.ts",
+                  "qualifiedName": "React.FunctionComponent"
+                },
+                "typeArguments": [
+                  {
+                    "type": "intrinsic",
+                    "name": "any"
+                  }
+                ],
+                "name": "FunctionComponent",
+                "package": "@types/react",
+                "qualifiedName": "React.FunctionComponent"
+              },
+              {
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "node_modules/next-yak/dist/index.d.ts",
+                  "qualifiedName": "AttrsFunction"
+                },
+                "typeArguments": [
+                  {
+                    "type": "intrinsic",
+                    "name": "any"
+                  },
+                  {
+                    "type": "reflection",
+                    "declaration": {
+                      "id": 106,
+                      "name": "__type",
+                      "variant": "declaration",
+                      "kind": 65536,
+                      "flags": {
+                        "isExternal": true
+                      }
+                    }
+                  },
+                  {
+                    "type": "intrinsic",
+                    "name": "any"
+                  }
+                ],
+                "name": "AttrsFunction",
+                "package": "next-yak"
+              }
+            ]
+          }
+        },
+        {
+          "id": 102,
+          "name": "contextTypes",
+          "variant": "declaration",
+          "kind": 1024,
+          "flags": {
+            "isExternal": true,
+            "isOptional": true
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Lets you specify which legacy context is consumed by\nthis component."
+                  }
+                ]
+              },
+              {
+                "tag": "@see",
+                "content": [
+                  {
+                    "kind": "inline-tag",
+                    "tag": "@link",
+                    "text": "Legacy React Docs",
+                    "target": "https://legacy.reactjs.org/docs/legacy-context.html"
+                  }
+                ]
+              }
+            ]
+          },
+          "sources": [
+            {
+              "fileName": "node_modules/@types/react/index.d.ts",
+              "line": 1148,
+              "character": 8,
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/@types/react/index.d.ts#line=1148"
+            }
+          ],
+          "type": {
+            "type": "reference",
+            "target": {
+              "sourceFileName": "node_modules/@types/prop-types/index.d.ts",
+              "qualifiedName": "PropTypes.ValidationMap"
+            },
+            "typeArguments": [
+              {
+                "type": "intrinsic",
+                "name": "any"
+              }
+            ],
+            "name": "ValidationMap",
+            "package": "@types/prop-types",
+            "qualifiedName": "PropTypes.ValidationMap"
+          }
+        },
+        {
+          "id": 103,
+          "name": "defaultProps",
+          "variant": "declaration",
+          "kind": 1024,
+          "flags": {
+            "isExternal": true,
+            "isOptional": true
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Used to define default values for the props accepted by\nthe component."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@see",
+                "content": [
+                  {
+                    "kind": "inline-tag",
+                    "tag": "@link",
+                    "text": "React Docs",
+                    "target": "https://react.dev/reference/react/Component#static-defaultprops"
+                  }
+                ]
+              },
+              {
+                "tag": "@example",
+                "content": [
+                  {
+                    "kind": "code",
+                    "text": "```tsx\ntype Props = { name?: string }\n\nconst MyComponent: FC<Props> = (props) => {\n  return <div>{props.name}</div>\n}\n\nMyComponent.defaultProps = {\n  name: 'John Doe'\n}\n```"
+                  }
+                ]
+              },
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Use "
+                  },
+                  {
+                    "kind": "inline-tag",
+                    "tag": "@link",
+                    "text": "values for destructuring assignments instead",
+                    "target": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#default_value|default"
+                  },
+                  {
+                    "kind": "text",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          "sources": [
+            {
+              "fileName": "node_modules/@types/react/index.d.ts",
+              "line": 1171,
+              "character": 8,
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/@types/react/index.d.ts#line=1171"
+            }
+          ],
+          "type": {
+            "type": "intrinsic",
+            "name": "any"
+          }
+        },
+        {
+          "id": 104,
+          "name": "displayName",
+          "variant": "declaration",
+          "kind": 1024,
+          "flags": {
+            "isExternal": true,
+            "isOptional": true
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Used in debugging messages. You might want to set it\nexplicitly if you want to display a different name for\ndebugging purposes."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@see",
+                "content": [
+                  {
+                    "kind": "inline-tag",
+                    "tag": "@link",
+                    "text": "Legacy React Docs",
+                    "target": "https://legacy.reactjs.org/docs/react-component.html#displayname"
+                  }
+                ]
+              },
+              {
+                "tag": "@example",
+                "content": [
+                  {
+                    "kind": "code",
+                    "text": "```tsx\n\nconst MyComponent: FC = () => {\n  return <div>Hello!</div>\n}\n\nMyComponent.displayName = 'MyAwesomeComponent'\n```"
+                  }
+                ]
+              }
+            ]
+          },
+          "sources": [
+            {
+              "fileName": "node_modules/@types/react/index.d.ts",
+              "line": 1190,
+              "character": 8,
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/@types/react/index.d.ts#line=1190"
+            }
+          ],
+          "type": {
+            "type": "intrinsic",
+            "name": "string"
+          }
+        },
+        {
+          "id": 101,
+          "name": "propTypes",
+          "variant": "declaration",
+          "kind": 1024,
+          "flags": {
+            "isExternal": true,
+            "isOptional": true
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Used to declare the types of the props accepted by the\ncomponent. These types will be checked during rendering\nand in development only.\n\nWe recommend using TypeScript instead of checking prop\ntypes at runtime."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@see",
+                "content": [
+                  {
+                    "kind": "inline-tag",
+                    "tag": "@link",
+                    "text": "React Docs",
+                    "target": "https://react.dev/reference/react/Component#static-proptypes"
+                  }
+                ]
+              }
+            ]
+          },
+          "sources": [
+            {
+              "fileName": "node_modules/@types/react/index.d.ts",
+              "line": 1139,
+              "character": 8,
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/@types/react/index.d.ts#line=1139"
+            }
+          ],
+          "type": {
+            "type": "intrinsic",
+            "name": "any"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "title": "Properties",
+          "children": [
+            105,
+            102,
+            103,
+            104,
+            101
+          ]
+        }
+      ],
       "sources": [
         {
           "fileName": "src/YakComponent.ts",
@@ -21,16 +327,78 @@
           "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/YakComponent.ts#line=4"
         }
       ],
-      "type": {
-        "type": "intrinsic",
-        "name": "any"
-      },
-      "defaultValue": "..."
+      "signatures": [
+        {
+          "id": 98,
+          "name": "YakComponent",
+          "variant": "signature",
+          "kind": 4096,
+          "flags": {},
+          "sources": [
+            {
+              "fileName": "src/YakComponent.ts",
+              "line": 4,
+              "character": 13,
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/YakComponent.ts#line=4"
+            }
+          ],
+          "parameters": [
+            {
+              "id": 99,
+              "name": "props",
+              "variant": "param",
+              "kind": 32768,
+              "flags": {},
+              "type": {
+                "type": "intrinsic",
+                "name": "any"
+              }
+            },
+            {
+              "id": 100,
+              "name": "deprecatedLegacyContext",
+              "variant": "param",
+              "kind": 32768,
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [],
+                "blockTags": [
+                  {
+                    "tag": "@deprecated",
+                    "content": []
+                  },
+                  {
+                    "tag": "@see",
+                    "content": [
+                      {
+                        "kind": "inline-tag",
+                        "tag": "@link",
+                        "text": "React Docs",
+                        "target": "https://legacy.reactjs.org/docs/legacy-context.html#referencing-context-in-lifecycle-methods"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "any"
+              }
+            }
+          ],
+          "type": {
+            "type": "intrinsic",
+            "name": "any"
+          }
+        }
+      ]
     }
   ],
   "groups": [
     {
-      "title": "Variables",
+      "title": "Functions",
       "children": [
         97
       ]
@@ -51,6 +419,42 @@
     "97": {
       "sourceFileName": "src/YakComponent.ts",
       "qualifiedName": "YakComponent"
+    },
+    "98": {
+      "sourceFileName": "node_modules/@types/react/index.d.ts",
+      "qualifiedName": "YakComponent"
+    },
+    "99": {
+      "sourceFileName": "node_modules/@types/react/index.d.ts",
+      "qualifiedName": "props"
+    },
+    "100": {
+      "sourceFileName": "node_modules/@types/react/index.d.ts",
+      "qualifiedName": "deprecatedLegacyContext"
+    },
+    "101": {
+      "sourceFileName": "node_modules/@types/react/index.d.ts",
+      "qualifiedName": "React.FunctionComponent.propTypes"
+    },
+    "102": {
+      "sourceFileName": "node_modules/@types/react/index.d.ts",
+      "qualifiedName": "React.FunctionComponent.contextTypes"
+    },
+    "103": {
+      "sourceFileName": "node_modules/@types/react/index.d.ts",
+      "qualifiedName": "React.FunctionComponent.defaultProps"
+    },
+    "104": {
+      "sourceFileName": "node_modules/@types/react/index.d.ts",
+      "qualifiedName": "React.FunctionComponent.displayName"
+    },
+    "105": {
+      "sourceFileName": "node_modules/next-yak/dist/index.d.ts",
+      "qualifiedName": "__type.[yakComponentSymbol]"
+    },
+    "106": {
+      "sourceFileName": "",
+      "qualifiedName": "__type"
     }
   },
   "files": {

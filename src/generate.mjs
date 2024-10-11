@@ -29,7 +29,7 @@ export const getTypedoc = async (file) => {
       pretty: true,
       disableGit: true,
       skipErrorChecking: true,
-      excludeExternals: false,
+      excludeExternals: true,
       excludeNotDocumented: false,
       excludeNotDocumentedKinds: [],
       excludeInternal: false,

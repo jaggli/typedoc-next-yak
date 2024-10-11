@@ -53,8 +53,77 @@
           "type": {
             "type": "array",
             "elementType": {
-              "type": "intrinsic",
-              "name": "any"
+              "type": "reference",
+              "target": {
+                "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+                "qualifiedName": "Attrs"
+              },
+              "typeArguments": [
+                {
+                  "type": "reference",
+                  "target": {
+                    "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+                    "qualifiedName": "Substitute"
+                  },
+                  "typeArguments": [
+                    {
+                      "type": "reference",
+                      "target": {
+                        "sourceFileName": "node_modules/@types/react/index.d.ts",
+                        "qualifiedName": "React.DetailedHTMLProps"
+                      },
+                      "typeArguments": [
+                        {
+                          "type": "reference",
+                          "target": {
+                            "sourceFileName": "node_modules/@types/react/index.d.ts",
+                            "qualifiedName": "React.HTMLAttributes"
+                          },
+                          "typeArguments": [
+                            {
+                              "type": "reference",
+                              "target": {
+                                "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+                                "qualifiedName": "HTMLDivElement"
+                              },
+                              "name": "HTMLDivElement",
+                              "package": "typescript"
+                            }
+                          ],
+                          "name": "HTMLAttributes",
+                          "package": "@types/react",
+                          "qualifiedName": "React.HTMLAttributes"
+                        },
+                        {
+                          "type": "reference",
+                          "target": {
+                            "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+                            "qualifiedName": "HTMLDivElement"
+                          },
+                          "name": "HTMLDivElement",
+                          "package": "typescript"
+                        }
+                      ],
+                      "name": "DetailedHTMLProps",
+                      "package": "@types/react",
+                      "qualifiedName": "React.DetailedHTMLProps"
+                    },
+                    {
+                      "type": "reference",
+                      "target": {
+                        "sourceFileName": "src/ComponentProps.ts",
+                        "qualifiedName": "ComponentProps"
+                      },
+                      "name": "ComponentProps",
+                      "package": "next-yak-typedoc"
+                    }
+                  ],
+                  "name": "Substitute",
+                  "package": "styled-components"
+                }
+              ],
+              "name": "Attrs",
+              "package": "styled-components"
             }
           }
         },
@@ -103,8 +172,91 @@
             }
           ],
           "type": {
-            "type": "intrinsic",
-            "name": "any"
+            "type": "intersection",
+            "types": [
+              {
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+                  "qualifiedName": "ExecutionProps"
+                },
+                "name": "ExecutionProps",
+                "package": "styled-components"
+              },
+              {
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                  "qualifiedName": "Partial"
+                },
+                "typeArguments": [
+                  {
+                    "type": "reference",
+                    "target": {
+                      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+                      "qualifiedName": "Substitute"
+                    },
+                    "typeArguments": [
+                      {
+                        "type": "reference",
+                        "target": {
+                          "sourceFileName": "node_modules/@types/react/index.d.ts",
+                          "qualifiedName": "React.DetailedHTMLProps"
+                        },
+                        "typeArguments": [
+                          {
+                            "type": "reference",
+                            "target": {
+                              "sourceFileName": "node_modules/@types/react/index.d.ts",
+                              "qualifiedName": "React.HTMLAttributes"
+                            },
+                            "typeArguments": [
+                              {
+                                "type": "reference",
+                                "target": {
+                                  "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+                                  "qualifiedName": "HTMLDivElement"
+                                },
+                                "name": "HTMLDivElement",
+                                "package": "typescript"
+                              }
+                            ],
+                            "name": "HTMLAttributes",
+                            "package": "@types/react",
+                            "qualifiedName": "React.HTMLAttributes"
+                          },
+                          {
+                            "type": "reference",
+                            "target": {
+                              "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+                              "qualifiedName": "HTMLDivElement"
+                            },
+                            "name": "HTMLDivElement",
+                            "package": "typescript"
+                          }
+                        ],
+                        "name": "DetailedHTMLProps",
+                        "package": "@types/react",
+                        "qualifiedName": "React.DetailedHTMLProps"
+                      },
+                      {
+                        "type": "reference",
+                        "target": {
+                          "sourceFileName": "src/ComponentProps.ts",
+                          "qualifiedName": "ComponentProps"
+                        },
+                        "name": "ComponentProps",
+                        "package": "next-yak-typedoc"
+                      }
+                    ],
+                    "name": "Substitute",
+                    "package": "styled-components"
+                  }
+                ],
+                "name": "Partial",
+                "package": "typescript"
+              }
+            ]
           }
         },
         {
