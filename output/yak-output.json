@@ -1,12 +1,12 @@
 {
-  "id": 6,
+  "id": 96,
   "name": "next-yak-typedoc",
   "variant": "project",
   "kind": 1,
   "flags": {},
   "children": [
     {
-      "id": 7,
+      "id": 97,
       "name": "YakComponent",
       "variant": "declaration",
       "kind": 32,
@@ -17,7 +17,8 @@
         {
           "fileName": "src/YakComponent.ts",
           "line": 4,
-          "character": 13
+          "character": 13,
+          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/YakComponent.ts#line=4"
         }
       ],
       "type": {
@@ -31,7 +32,7 @@
     {
       "title": "Variables",
       "children": [
-        7
+        97
       ]
     }
   ],
@@ -43,11 +44,11 @@
     }
   ],
   "symbolIdMap": {
-    "6": {
+    "96": {
       "sourceFileName": "src/YakComponent.ts",
       "qualifiedName": ""
     },
-    "7": {
+    "97": {
       "sourceFileName": "src/YakComponent.ts",
       "qualifiedName": "YakComponent"
     }
@@ -57,7 +58,7 @@
       "1": "src/YakComponent.ts"
     },
     "reflections": {
-      "1": 6
+      "1": 96
     }
   }
 }

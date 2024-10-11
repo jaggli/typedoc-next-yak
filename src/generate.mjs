@@ -13,9 +13,9 @@ const rootDir = path.resolve(__dirname, "..");
  * Get typedoc for one file
  * @param {string} file
  */
-export const getTypedoc = async (file)=> {
+export const getTypedoc = async (file) => {
   const filePath = path.resolve(__dirname, file);
-  
+
   /** @type {typedoc.JSONOutput.ProjectReflection | null}  */
   let fileDocs = null;
 
@@ -27,10 +27,18 @@ export const getTypedoc = async (file)=> {
       basePath: rootDir,
       cleanOutputDir: false,
       pretty: true,
-      excludeInternal: false,
-      excludeExternals: true,
+      disableGit: true,
       skipErrorChecking: true,
-      logLevel: 'Warn',
+      excludeExternals: false,
+      excludeNotDocumented: false,
+      excludeNotDocumentedKinds: [],
+      excludeInternal: false,
+      excludePrivate: false,
+      excludeProtected: false,
+      excludeReferences: false,
+      excludeCategories: [],
+      logLevel: 'Verbose',
+      sourceLinkTemplate: 'https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/{path}#line={line}'
     },
     // a subset of DEFAULT_READERS https://github.com/TypeStrong/typedoc/blob/f0f3d96f53ec0cc7767c21d6d5549305a986cdf0/src/lib/application.ts#L70
     [new TypeDocReader()]
@@ -62,14 +70,14 @@ const findChild = (docs, name) => {
 
 // Styled component
 const styledDocs = await getTypedoc('StyledComponent.ts');
-const styledFilename = path.resolve(rootDir, "output/styled-output.json")
+const styledFilename = path.resolve(rootDir, "output/styled-output.json");
 fs.writeFileSync(styledFilename, JSON.stringify(styledDocs, null, 2));
-console.log("Wrote all styled docs to", styledFilename)
-console.log("Type of StyledComponent: \n\n ", findChild(styledDocs, "StyledComponent")?.type)
+console.log("Wrote all styled docs to", styledFilename);
+console.log("Type of StyledComponent: \n\n ", findChild(styledDocs, "StyledComponent")?.type, "\n");
 
 // Yak component
 const yakDocs = await getTypedoc('YakComponent.ts');
-const yakFilename = path.resolve(rootDir, "output/yak-output.json")
+const yakFilename = path.resolve(rootDir, "output/yak-output.json");
 fs.writeFileSync(yakFilename, JSON.stringify(yakDocs, null, 2));
-console.log("Wrote all yak docs to", yakFilename)
-console.log("Type of YakComponent: \n\n ", findChild(yakDocs, "YakComponent")?.type)
+console.log("Wrote all yak docs to", yakFilename);
+console.log("Type of YakComponent: \n\n ", findChild(yakDocs, "YakComponent")?.type, "\n");
