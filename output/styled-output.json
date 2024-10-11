@@ -1,26 +1,26 @@
 {
-  "id": 0,
+  "id": 10,
   "name": "next-yak-typedoc",
   "variant": "project",
   "kind": 1,
   "flags": {},
   "children": [
     {
-      "id": 1,
+      "id": 11,
       "name": "src/StyledComponent",
       "variant": "declaration",
       "kind": 2,
       "flags": {},
       "children": [
         {
-          "id": 2,
+          "id": 12,
           "name": "StyledComponent",
           "variant": "declaration",
           "kind": 64,
           "flags": {},
           "children": [
             {
-              "id": 24,
+              "id": 34,
               "name": "_sc",
               "variant": "declaration",
               "kind": 1024,
@@ -42,7 +42,7 @@
               }
             },
             {
-              "id": 22,
+              "id": 32,
               "name": "attrs",
               "variant": "declaration",
               "kind": 1024,
@@ -135,7 +135,7 @@
               }
             },
             {
-              "id": 13,
+              "id": 23,
               "name": "componentStyle",
               "variant": "declaration",
               "kind": 1024,
@@ -162,7 +162,7 @@
               }
             },
             {
-              "id": 7,
+              "id": 17,
               "name": "defaultProps",
               "variant": "declaration",
               "kind": 1024,
@@ -267,7 +267,7 @@
               }
             },
             {
-              "id": 14,
+              "id": 24,
               "name": "foldedComponentIds",
               "variant": "declaration",
               "kind": 1024,
@@ -288,7 +288,7 @@
               }
             },
             {
-              "id": 15,
+              "id": 25,
               "name": "inlineStyle",
               "variant": "declaration",
               "kind": 1024,
@@ -309,7 +309,7 @@
               }
             },
             {
-              "id": 90,
+              "id": 100,
               "name": "length",
               "variant": "declaration",
               "kind": 1024,
@@ -339,7 +339,7 @@
               }
             },
             {
-              "id": 23,
+              "id": 33,
               "name": "shouldForwardProp",
               "variant": "declaration",
               "kind": 1024,
@@ -372,7 +372,7 @@
               }
             },
             {
-              "id": 17,
+              "id": 27,
               "name": "styledComponentId",
               "variant": "declaration",
               "kind": 1024,
@@ -393,7 +393,7 @@
               }
             },
             {
-              "id": 16,
+              "id": 26,
               "name": "target",
               "variant": "declaration",
               "kind": 1024,
@@ -414,7 +414,7 @@
               }
             },
             {
-              "id": 8,
+              "id": 18,
               "name": "toString",
               "variant": "declaration",
               "kind": 1024,
@@ -449,7 +449,7 @@
                   {
                     "type": "reflection",
                     "declaration": {
-                      "id": 9,
+                      "id": 19,
                       "name": "__type",
                       "variant": "declaration",
                       "kind": 65536,
@@ -466,7 +466,7 @@
                       ],
                       "signatures": [
                         {
-                          "id": 10,
+                          "id": 20,
                           "name": "__type",
                           "variant": "signature",
                           "kind": 4096,
@@ -492,7 +492,7 @@
                   {
                     "type": "reflection",
                     "declaration": {
-                      "id": 11,
+                      "id": 21,
                       "name": "__type",
                       "variant": "declaration",
                       "kind": 65536,
@@ -509,7 +509,7 @@
                       ],
                       "signatures": [
                         {
-                          "id": 12,
+                          "id": 22,
                           "name": "__type",
                           "variant": "signature",
                           "kind": 4096,
@@ -544,7 +544,7 @@
               }
             },
             {
-              "id": 18,
+              "id": 28,
               "name": "warnTooManyClasses",
               "variant": "declaration",
               "kind": 1024,
@@ -563,7 +563,7 @@
               "type": {
                 "type": "reflection",
                 "declaration": {
-                  "id": 19,
+                  "id": 29,
                   "name": "__type",
                   "variant": "declaration",
                   "kind": 65536,
@@ -580,7 +580,7 @@
                   ],
                   "signatures": [
                     {
-                      "id": 20,
+                      "id": 30,
                       "name": "__type",
                       "variant": "signature",
                       "kind": 4096,
@@ -597,7 +597,7 @@
                       ],
                       "parameters": [
                         {
-                          "id": 21,
+                          "id": 31,
                           "name": "className",
                           "variant": "param",
                           "kind": 32768,
@@ -620,7 +620,7 @@
               }
             },
             {
-              "id": 25,
+              "id": 35,
               "name": "charAt",
               "variant": "declaration",
               "kind": 2048,
@@ -637,7 +637,7 @@
               ],
               "signatures": [
                 {
-                  "id": 26,
+                  "id": 36,
                   "name": "charAt",
                   "variant": "signature",
                   "kind": 4096,
@@ -662,7 +662,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 27,
+                      "id": 37,
                       "name": "pos",
                       "variant": "param",
                       "kind": 32768,
@@ -691,7 +691,7 @@
               ]
             },
             {
-              "id": 28,
+              "id": 38,
               "name": "charCodeAt",
               "variant": "declaration",
               "kind": 2048,
@@ -708,7 +708,7 @@
               ],
               "signatures": [
                 {
-                  "id": 29,
+                  "id": 39,
                   "name": "charCodeAt",
                   "variant": "signature",
                   "kind": 4096,
@@ -733,7 +733,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 30,
+                      "id": 40,
                       "name": "index",
                       "variant": "param",
                       "kind": 32768,
@@ -762,7 +762,7 @@
               ]
             },
             {
-              "id": 31,
+              "id": 41,
               "name": "concat",
               "variant": "declaration",
               "kind": 2048,
@@ -779,7 +779,7 @@
               ],
               "signatures": [
                 {
-                  "id": 32,
+                  "id": 42,
                   "name": "concat",
                   "variant": "signature",
                   "kind": 4096,
@@ -804,7 +804,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 33,
+                      "id": 43,
                       "name": "strings",
                       "variant": "param",
                       "kind": 32768,
@@ -837,7 +837,7 @@
               ]
             },
             {
-              "id": 34,
+              "id": 44,
               "name": "indexOf",
               "variant": "declaration",
               "kind": 2048,
@@ -854,7 +854,7 @@
               ],
               "signatures": [
                 {
-                  "id": 35,
+                  "id": 45,
                   "name": "indexOf",
                   "variant": "signature",
                   "kind": 4096,
@@ -879,7 +879,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 36,
+                      "id": 46,
                       "name": "searchString",
                       "variant": "param",
                       "kind": 32768,
@@ -900,7 +900,7 @@
                       }
                     },
                     {
-                      "id": 37,
+                      "id": 47,
                       "name": "position",
                       "variant": "param",
                       "kind": 32768,
@@ -930,7 +930,7 @@
               ]
             },
             {
-              "id": 38,
+              "id": 48,
               "name": "lastIndexOf",
               "variant": "declaration",
               "kind": 2048,
@@ -947,7 +947,7 @@
               ],
               "signatures": [
                 {
-                  "id": 39,
+                  "id": 49,
                   "name": "lastIndexOf",
                   "variant": "signature",
                   "kind": 4096,
@@ -972,7 +972,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 40,
+                      "id": 50,
                       "name": "searchString",
                       "variant": "param",
                       "kind": 32768,
@@ -993,7 +993,7 @@
                       }
                     },
                     {
-                      "id": 41,
+                      "id": 51,
                       "name": "position",
                       "variant": "param",
                       "kind": 32768,
@@ -1023,7 +1023,7 @@
               ]
             },
             {
-              "id": 42,
+              "id": 52,
               "name": "localeCompare",
               "variant": "declaration",
               "kind": 2048,
@@ -1046,7 +1046,7 @@
               ],
               "signatures": [
                 {
-                  "id": 43,
+                  "id": 53,
                   "name": "localeCompare",
                   "variant": "signature",
                   "kind": 4096,
@@ -1071,7 +1071,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 44,
+                      "id": 54,
                       "name": "that",
                       "variant": "param",
                       "kind": 32768,
@@ -1098,7 +1098,7 @@
                   }
                 },
                 {
-                  "id": 45,
+                  "id": 55,
                   "name": "localeCompare",
                   "variant": "signature",
                   "kind": 4096,
@@ -1123,7 +1123,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 46,
+                      "id": 56,
                       "name": "that",
                       "variant": "param",
                       "kind": 32768,
@@ -1144,7 +1144,7 @@
                       }
                     },
                     {
-                      "id": 47,
+                      "id": 57,
                       "name": "locales",
                       "variant": "param",
                       "kind": 32768,
@@ -1178,7 +1178,7 @@
                       }
                     },
                     {
-                      "id": 48,
+                      "id": 58,
                       "name": "options",
                       "variant": "param",
                       "kind": 32768,
@@ -1214,7 +1214,7 @@
               ]
             },
             {
-              "id": 49,
+              "id": 59,
               "name": "match",
               "variant": "declaration",
               "kind": 2048,
@@ -1231,7 +1231,7 @@
               ],
               "signatures": [
                 {
-                  "id": 50,
+                  "id": 60,
                   "name": "match",
                   "variant": "signature",
                   "kind": 4096,
@@ -1256,7 +1256,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 51,
+                      "id": 61,
                       "name": "regexp",
                       "variant": "param",
                       "kind": 32768,
@@ -1304,7 +1304,7 @@
               ]
             },
             {
-              "id": 52,
+              "id": 62,
               "name": "replace",
               "variant": "declaration",
               "kind": 2048,
@@ -1327,7 +1327,7 @@
               ],
               "signatures": [
                 {
-                  "id": 53,
+                  "id": 63,
                   "name": "replace",
                   "variant": "signature",
                   "kind": 4096,
@@ -1352,7 +1352,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 54,
+                      "id": 64,
                       "name": "searchValue",
                       "variant": "param",
                       "kind": 32768,
@@ -1387,7 +1387,7 @@
                       }
                     },
                     {
-                      "id": 55,
+                      "id": 65,
                       "name": "replaceValue",
                       "variant": "param",
                       "kind": 32768,
@@ -1404,7 +1404,7 @@
                             "kind": "inline-tag",
                             "tag": "@linkcode",
                             "text": "searchValue",
-                            "target": 54
+                            "target": 64
                           },
                           {
                             "kind": "text",
@@ -1438,7 +1438,7 @@
                             "kind": "inline-tag",
                             "tag": "@linkcode",
                             "text": "searchValue",
-                            "target": 54
+                            "target": 64
                           },
                           {
                             "kind": "text",
@@ -1458,7 +1458,7 @@
                   }
                 },
                 {
-                  "id": 56,
+                  "id": 66,
                   "name": "replace",
                   "variant": "signature",
                   "kind": 4096,
@@ -1483,7 +1483,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 57,
+                      "id": 67,
                       "name": "searchValue",
                       "variant": "param",
                       "kind": 32768,
@@ -1518,7 +1518,7 @@
                       }
                     },
                     {
-                      "id": 58,
+                      "id": 68,
                       "name": "replacer",
                       "variant": "param",
                       "kind": 32768,
@@ -1536,7 +1536,7 @@
                       "type": {
                         "type": "reflection",
                         "declaration": {
-                          "id": 59,
+                          "id": 69,
                           "name": "__type",
                           "variant": "declaration",
                           "kind": 65536,
@@ -1553,7 +1553,7 @@
                           ],
                           "signatures": [
                             {
-                              "id": 60,
+                              "id": 70,
                               "name": "__type",
                               "variant": "signature",
                               "kind": 4096,
@@ -1570,7 +1570,7 @@
                               ],
                               "parameters": [
                                 {
-                                  "id": 61,
+                                  "id": 71,
                                   "name": "substring",
                                   "variant": "param",
                                   "kind": 32768,
@@ -1583,7 +1583,7 @@
                                   }
                                 },
                                 {
-                                  "id": 62,
+                                  "id": 72,
                                   "name": "args",
                                   "variant": "param",
                                   "kind": 32768,
@@ -1618,7 +1618,7 @@
               ]
             },
             {
-              "id": 63,
+              "id": 73,
               "name": "search",
               "variant": "declaration",
               "kind": 2048,
@@ -1635,7 +1635,7 @@
               ],
               "signatures": [
                 {
-                  "id": 64,
+                  "id": 74,
                   "name": "search",
                   "variant": "signature",
                   "kind": 4096,
@@ -1660,7 +1660,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 65,
+                      "id": 75,
                       "name": "regexp",
                       "variant": "param",
                       "kind": 32768,
@@ -1703,7 +1703,7 @@
               ]
             },
             {
-              "id": 66,
+              "id": 76,
               "name": "slice",
               "variant": "declaration",
               "kind": 2048,
@@ -1720,7 +1720,7 @@
               ],
               "signatures": [
                 {
-                  "id": 67,
+                  "id": 77,
                   "name": "slice",
                   "variant": "signature",
                   "kind": 4096,
@@ -1745,7 +1745,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 68,
+                      "id": 78,
                       "name": "start",
                       "variant": "param",
                       "kind": 32768,
@@ -1767,7 +1767,7 @@
                       }
                     },
                     {
-                      "id": 69,
+                      "id": 79,
                       "name": "end",
                       "variant": "param",
                       "kind": 32768,
@@ -1797,7 +1797,7 @@
               ]
             },
             {
-              "id": 70,
+              "id": 80,
               "name": "split",
               "variant": "declaration",
               "kind": 2048,
@@ -1814,7 +1814,7 @@
               ],
               "signatures": [
                 {
-                  "id": 71,
+                  "id": 81,
                   "name": "split",
                   "variant": "signature",
                   "kind": 4096,
@@ -1839,7 +1839,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 72,
+                      "id": 82,
                       "name": "separator",
                       "variant": "param",
                       "kind": 32768,
@@ -1874,7 +1874,7 @@
                       }
                     },
                     {
-                      "id": 73,
+                      "id": 83,
                       "name": "limit",
                       "variant": "param",
                       "kind": 32768,
@@ -1907,7 +1907,7 @@
               ]
             },
             {
-              "id": 91,
+              "id": 101,
               "name": "substr",
               "variant": "declaration",
               "kind": 2048,
@@ -1924,7 +1924,7 @@
               ],
               "signatures": [
                 {
-                  "id": 92,
+                  "id": 102,
                   "name": "substr",
                   "variant": "signature",
                   "kind": 4096,
@@ -1960,7 +1960,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 93,
+                      "id": 103,
                       "name": "from",
                       "variant": "param",
                       "kind": 32768,
@@ -1981,7 +1981,7 @@
                       }
                     },
                     {
-                      "id": 94,
+                      "id": 104,
                       "name": "length",
                       "variant": "param",
                       "kind": 32768,
@@ -2011,7 +2011,7 @@
               ]
             },
             {
-              "id": 74,
+              "id": 84,
               "name": "substring",
               "variant": "declaration",
               "kind": 2048,
@@ -2028,7 +2028,7 @@
               ],
               "signatures": [
                 {
-                  "id": 75,
+                  "id": 85,
                   "name": "substring",
                   "variant": "signature",
                   "kind": 4096,
@@ -2053,7 +2053,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 76,
+                      "id": 86,
                       "name": "start",
                       "variant": "param",
                       "kind": 32768,
@@ -2074,7 +2074,7 @@
                       }
                     },
                     {
-                      "id": 77,
+                      "id": 87,
                       "name": "end",
                       "variant": "param",
                       "kind": 32768,
@@ -2104,7 +2104,7 @@
               ]
             },
             {
-              "id": 80,
+              "id": 90,
               "name": "toLocaleLowerCase",
               "variant": "declaration",
               "kind": 2048,
@@ -2121,7 +2121,7 @@
               ],
               "signatures": [
                 {
-                  "id": 81,
+                  "id": 91,
                   "name": "toLocaleLowerCase",
                   "variant": "signature",
                   "kind": 4096,
@@ -2146,7 +2146,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 82,
+                      "id": 92,
                       "name": "locales",
                       "variant": "param",
                       "kind": 32768,
@@ -2180,7 +2180,7 @@
               ]
             },
             {
-              "id": 85,
+              "id": 95,
               "name": "toLocaleUpperCase",
               "variant": "declaration",
               "kind": 2048,
@@ -2197,7 +2197,7 @@
               ],
               "signatures": [
                 {
-                  "id": 86,
+                  "id": 96,
                   "name": "toLocaleUpperCase",
                   "variant": "signature",
                   "kind": 4096,
@@ -2222,7 +2222,7 @@
                   ],
                   "parameters": [
                     {
-                      "id": 87,
+                      "id": 97,
                       "name": "locales",
                       "variant": "param",
                       "kind": 32768,
@@ -2256,7 +2256,7 @@
               ]
             },
             {
-              "id": 78,
+              "id": 88,
               "name": "toLowerCase",
               "variant": "declaration",
               "kind": 2048,
@@ -2273,7 +2273,7 @@
               ],
               "signatures": [
                 {
-                  "id": 79,
+                  "id": 89,
                   "name": "toLowerCase",
                   "variant": "signature",
                   "kind": 4096,
@@ -2304,7 +2304,7 @@
               ]
             },
             {
-              "id": 83,
+              "id": 93,
               "name": "toUpperCase",
               "variant": "declaration",
               "kind": 2048,
@@ -2321,7 +2321,7 @@
               ],
               "signatures": [
                 {
-                  "id": 84,
+                  "id": 94,
                   "name": "toUpperCase",
                   "variant": "signature",
                   "kind": 4096,
@@ -2352,7 +2352,7 @@
               ]
             },
             {
-              "id": 88,
+              "id": 98,
               "name": "trim",
               "variant": "declaration",
               "kind": 2048,
@@ -2369,7 +2369,7 @@
               ],
               "signatures": [
                 {
-                  "id": 89,
+                  "id": 99,
                   "name": "trim",
                   "variant": "signature",
                   "kind": 4096,
@@ -2400,7 +2400,7 @@
               ]
             },
             {
-              "id": 95,
+              "id": 105,
               "name": "valueOf",
               "variant": "declaration",
               "kind": 2048,
@@ -2417,7 +2417,7 @@
               ],
               "signatures": [
                 {
-                  "id": 96,
+                  "id": 106,
                   "name": "valueOf",
                   "variant": "signature",
                   "kind": 4096,
@@ -2452,42 +2452,42 @@
             {
               "title": "Properties",
               "children": [
-                24,
-                22,
-                13,
-                7,
-                14,
-                15,
-                90,
+                34,
+                32,
                 23,
                 17,
-                16,
-                8,
-                18
+                24,
+                25,
+                100,
+                33,
+                27,
+                26,
+                18,
+                28
               ]
             },
             {
               "title": "Methods",
               "children": [
-                25,
-                28,
-                31,
-                34,
+                35,
                 38,
-                42,
-                49,
+                41,
+                44,
+                48,
                 52,
-                63,
-                66,
-                70,
-                91,
-                74,
+                59,
+                62,
+                73,
+                76,
                 80,
-                85,
-                78,
-                83,
+                101,
+                84,
+                90,
+                95,
                 88,
-                95
+                93,
+                98,
+                105
               ]
             }
           ],
@@ -2501,7 +2501,7 @@
           ],
           "signatures": [
             {
-              "id": 3,
+              "id": 13,
               "name": "StyledComponent",
               "variant": "signature",
               "kind": 4096,
@@ -2516,7 +2516,7 @@
               ],
               "typeParameters": [
                 {
-                  "id": 4,
+                  "id": 14,
                   "name": "AsTarget",
                   "variant": "typeParam",
                   "kind": 131072,
@@ -2531,7 +2531,7 @@
                   }
                 },
                 {
-                  "id": 5,
+                  "id": 15,
                   "name": "ForwardedAsTarget",
                   "variant": "typeParam",
                   "kind": 131072,
@@ -2548,7 +2548,7 @@
               ],
               "parameters": [
                 {
-                  "id": 6,
+                  "id": 16,
                   "name": "props",
                   "variant": "param",
                   "kind": 32768,
@@ -2576,7 +2576,7 @@
         {
           "title": "Functions",
           "children": [
-            2
+            12
           ]
         }
       ],
@@ -2594,7 +2594,7 @@
     {
       "title": "Modules",
       "children": [
-        1
+        11
       ]
     }
   ],
@@ -2606,387 +2606,387 @@
     }
   ],
   "symbolIdMap": {
-    "1": {
+    "11": {
       "sourceFileName": "src/StyledComponent.ts",
       "qualifiedName": ""
     },
-    "2": {
+    "12": {
       "sourceFileName": "src/StyledComponent.ts",
       "qualifiedName": "StyledComponent"
     },
-    "3": {
+    "13": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "StyledComponent"
     },
-    "4": {
+    "14": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "AsTarget"
     },
-    "5": {
+    "15": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "ForwardedAsTarget"
     },
-    "6": {
+    "16": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "props"
     },
-    "7": {
+    "17": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "IStyledComponentBase.defaultProps"
     },
-    "8": {
+    "18": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "toString"
     },
-    "9": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "__type"
-    },
-    "10": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "__type"
-    },
-    "11": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toString"
-    },
-    "12": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toString"
-    },
-    "13": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.componentStyle"
-    },
-    "14": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.foldedComponentIds"
-    },
-    "15": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.inlineStyle"
-    },
-    "16": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.target"
-    },
-    "17": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.styledComponentId"
-    },
-    "18": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "IStyledStatics.warnTooManyClasses"
-    },
     "19": {
-      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "__type"
     },
     "20": {
-      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
       "qualifiedName": "__type"
     },
     "21": {
-      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
-      "qualifiedName": "className"
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.toString"
     },
     "22": {
-      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "CommonStatics.attrs"
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.toString"
     },
     "23": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "CommonStatics.shouldForwardProp"
+      "qualifiedName": "IStyledStatics.componentStyle"
     },
     "24": {
       "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
-      "qualifiedName": "__type._sc"
+      "qualifiedName": "IStyledStatics.foldedComponentIds"
     },
     "25": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.charAt"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "IStyledStatics.inlineStyle"
     },
     "26": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.charAt"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "IStyledStatics.target"
     },
     "27": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "pos"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "IStyledStatics.styledComponentId"
     },
     "28": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.charCodeAt"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "IStyledStatics.warnTooManyClasses"
     },
     "29": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.charCodeAt"
+      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
+      "qualifiedName": "__type"
     },
     "30": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "index"
+      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
+      "qualifiedName": "__type"
     },
     "31": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.concat"
+      "sourceFileName": "node_modules/styled-components/dist/utils/createWarnTooManyClasses.d.ts",
+      "qualifiedName": "className"
     },
     "32": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.concat"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "CommonStatics.attrs"
     },
     "33": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "strings"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "CommonStatics.shouldForwardProp"
     },
     "34": {
-      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.indexOf"
+      "sourceFileName": "node_modules/styled-components/dist/types.d.ts",
+      "qualifiedName": "__type._sc"
     },
     "35": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.indexOf"
+      "qualifiedName": "String.charAt"
     },
     "36": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchString"
+      "qualifiedName": "String.charAt"
     },
     "37": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "position"
+      "qualifiedName": "pos"
     },
     "38": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.lastIndexOf"
+      "qualifiedName": "String.charCodeAt"
     },
     "39": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.lastIndexOf"
+      "qualifiedName": "String.charCodeAt"
     },
     "40": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchString"
+      "qualifiedName": "index"
     },
     "41": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "position"
+      "qualifiedName": "String.concat"
     },
     "42": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.localeCompare"
+      "qualifiedName": "String.concat"
     },
     "43": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.localeCompare"
+      "qualifiedName": "strings"
     },
     "44": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "that"
+      "qualifiedName": "String.indexOf"
     },
     "45": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.localeCompare"
+      "qualifiedName": "String.indexOf"
     },
     "46": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "that"
+      "qualifiedName": "searchString"
     },
     "47": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "locales"
+      "qualifiedName": "position"
     },
     "48": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "options"
+      "qualifiedName": "String.lastIndexOf"
     },
     "49": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.match"
+      "qualifiedName": "String.lastIndexOf"
     },
     "50": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.match"
+      "qualifiedName": "searchString"
     },
     "51": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "regexp"
+      "qualifiedName": "position"
     },
     "52": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.replace"
+      "qualifiedName": "String.localeCompare"
     },
     "53": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.replace"
+      "qualifiedName": "String.localeCompare"
     },
     "54": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchValue"
+      "qualifiedName": "that"
     },
     "55": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "replaceValue"
+      "qualifiedName": "String.localeCompare"
     },
     "56": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.replace"
+      "qualifiedName": "that"
     },
     "57": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "searchValue"
+      "qualifiedName": "locales"
     },
     "58": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "replacer"
+      "qualifiedName": "options"
     },
     "59": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "__type"
+      "qualifiedName": "String.match"
     },
     "60": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "__type"
+      "qualifiedName": "String.match"
     },
     "61": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "substring"
+      "qualifiedName": "regexp"
     },
     "62": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "args"
+      "qualifiedName": "String.replace"
     },
     "63": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.search"
+      "qualifiedName": "String.replace"
     },
     "64": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.search"
+      "qualifiedName": "searchValue"
     },
     "65": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "regexp"
+      "qualifiedName": "replaceValue"
     },
     "66": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.slice"
+      "qualifiedName": "String.replace"
     },
     "67": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.slice"
+      "qualifiedName": "searchValue"
     },
     "68": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "start"
+      "qualifiedName": "replacer"
     },
     "69": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "end"
+      "qualifiedName": "__type"
     },
     "70": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.split"
+      "qualifiedName": "__type"
     },
     "71": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.split"
+      "qualifiedName": "substring"
     },
     "72": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "separator"
+      "qualifiedName": "args"
     },
     "73": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "limit"
+      "qualifiedName": "String.search"
     },
     "74": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.substring"
+      "qualifiedName": "String.search"
     },
     "75": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.substring"
+      "qualifiedName": "regexp"
     },
     "76": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "start"
+      "qualifiedName": "String.slice"
     },
     "77": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "end"
+      "qualifiedName": "String.slice"
     },
     "78": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLowerCase"
+      "qualifiedName": "start"
     },
     "79": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLowerCase"
+      "qualifiedName": "end"
     },
     "80": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLocaleLowerCase"
+      "qualifiedName": "String.split"
     },
     "81": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLocaleLowerCase"
+      "qualifiedName": "String.split"
     },
     "82": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "locales"
+      "qualifiedName": "separator"
     },
     "83": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toUpperCase"
+      "qualifiedName": "limit"
     },
     "84": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toUpperCase"
+      "qualifiedName": "String.substring"
     },
     "85": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLocaleUpperCase"
+      "qualifiedName": "String.substring"
     },
     "86": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.toLocaleUpperCase"
+      "qualifiedName": "start"
     },
     "87": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "locales"
+      "qualifiedName": "end"
     },
     "88": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.trim"
+      "qualifiedName": "String.toLowerCase"
     },
     "89": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.trim"
+      "qualifiedName": "String.toLowerCase"
     },
     "90": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.length"
+      "qualifiedName": "String.toLocaleLowerCase"
     },
     "91": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.substr"
+      "qualifiedName": "String.toLocaleLowerCase"
     },
     "92": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.substr"
+      "qualifiedName": "locales"
     },
     "93": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "from"
+      "qualifiedName": "String.toUpperCase"
     },
     "94": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "length"
+      "qualifiedName": "String.toUpperCase"
     },
     "95": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-      "qualifiedName": "String.valueOf"
+      "qualifiedName": "String.toLocaleUpperCase"
     },
     "96": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.toLocaleUpperCase"
+    },
+    "97": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "locales"
+    },
+    "98": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.trim"
+    },
+    "99": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.trim"
+    },
+    "100": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.length"
+    },
+    "101": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.substr"
+    },
+    "102": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.substr"
+    },
+    "103": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "from"
+    },
+    "104": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "length"
+    },
+    "105": {
+      "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+      "qualifiedName": "String.valueOf"
+    },
+    "106": {
       "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
       "qualifiedName": "String.valueOf"
     }
@@ -2996,7 +2996,7 @@
       "1": "src/StyledComponent.ts"
     },
     "reflections": {
-      "1": 1
+      "1": 11
     }
   }
 }

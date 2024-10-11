@@ -1,95 +1,26 @@
 {
-  "id": 107,
+  "id": 0,
   "name": "next-yak-typedoc",
   "variant": "project",
   "kind": 1,
   "flags": {},
   "children": [
     {
-      "id": 108,
-      "name": "src/YakComponent",
+      "id": 1,
+      "name": "src/ReactComponent",
       "variant": "declaration",
       "kind": 2,
       "flags": {},
       "children": [
         {
-          "id": 109,
-          "name": "YakComponent",
+          "id": 2,
+          "name": "ReactComponent",
           "variant": "declaration",
           "kind": 64,
           "flags": {},
           "children": [
             {
-              "id": 117,
-              "name": "[yakComponentSymbol]",
-              "variant": "declaration",
-              "kind": 1024,
-              "flags": {
-                "isExternal": true
-              },
-              "sources": [
-                {
-                  "fileName": "node_modules/next-yak/dist/index.d.ts",
-                  "line": 96,
-                  "character": 4,
-                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/node_modules/next-yak/dist/index.d.ts#line=96"
-                }
-              ],
-              "type": {
-                "type": "tuple",
-                "elements": [
-                  {
-                    "type": "reference",
-                    "target": {
-                      "sourceFileName": "node_modules/@types/react/index.d.ts",
-                      "qualifiedName": "React.FunctionComponent"
-                    },
-                    "typeArguments": [
-                      {
-                        "type": "intrinsic",
-                        "name": "any"
-                      }
-                    ],
-                    "name": "FunctionComponent",
-                    "package": "@types/react",
-                    "qualifiedName": "React.FunctionComponent"
-                  },
-                  {
-                    "type": "reference",
-                    "target": {
-                      "sourceFileName": "node_modules/next-yak/dist/index.d.ts",
-                      "qualifiedName": "AttrsFunction"
-                    },
-                    "typeArguments": [
-                      {
-                        "type": "intrinsic",
-                        "name": "any"
-                      },
-                      {
-                        "type": "reflection",
-                        "declaration": {
-                          "id": 118,
-                          "name": "__type",
-                          "variant": "declaration",
-                          "kind": 65536,
-                          "flags": {
-                            "isExternal": true
-                          }
-                        }
-                      },
-                      {
-                        "type": "intrinsic",
-                        "name": "any"
-                      }
-                    ],
-                    "name": "AttrsFunction",
-                    "package": "next-yak"
-                  }
-                ]
-              }
-            },
-            {
-              "id": 114,
+              "id": 7,
               "name": "contextTypes",
               "variant": "declaration",
               "kind": 1024,
@@ -148,7 +79,7 @@
               }
             },
             {
-              "id": 115,
+              "id": 8,
               "name": "defaultProps",
               "variant": "declaration",
               "kind": 1024,
@@ -214,12 +145,28 @@
                 }
               ],
               "type": {
-                "type": "intrinsic",
-                "name": "any"
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                  "qualifiedName": "Partial"
+                },
+                "typeArguments": [
+                  {
+                    "type": "reference",
+                    "target": {
+                      "sourceFileName": "src/ComponentProps.ts",
+                      "qualifiedName": "ComponentProps"
+                    },
+                    "name": "ComponentProps",
+                    "package": "next-yak-typedoc"
+                  }
+                ],
+                "name": "Partial",
+                "package": "typescript"
               }
             },
             {
-              "id": 116,
+              "id": 9,
               "name": "displayName",
               "variant": "declaration",
               "kind": 1024,
@@ -271,7 +218,7 @@
               }
             },
             {
-              "id": 113,
+              "id": 6,
               "name": "propTypes",
               "variant": "declaration",
               "kind": 1024,
@@ -309,8 +256,25 @@
                 }
               ],
               "type": {
-                "type": "intrinsic",
-                "name": "any"
+                "type": "reference",
+                "target": {
+                  "sourceFileName": "node_modules/@types/react/index.d.ts",
+                  "qualifiedName": "React.WeakValidationMap"
+                },
+                "typeArguments": [
+                  {
+                    "type": "reference",
+                    "target": {
+                      "sourceFileName": "src/ComponentProps.ts",
+                      "qualifiedName": "ComponentProps"
+                    },
+                    "name": "ComponentProps",
+                    "package": "next-yak-typedoc"
+                  }
+                ],
+                "name": "WeakValidationMap",
+                "package": "@types/react",
+                "qualifiedName": "React.WeakValidationMap"
               }
             }
           ],
@@ -318,51 +282,55 @@
             {
               "title": "Properties",
               "children": [
-                117,
-                114,
-                115,
-                116,
-                113
+                7,
+                8,
+                9,
+                6
               ]
             }
           ],
           "sources": [
             {
-              "fileName": "src/YakComponent.ts",
+              "fileName": "src/ReactComponent.ts",
               "line": 4,
               "character": 13,
-              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/YakComponent.ts#line=4"
+              "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ReactComponent.ts#line=4"
             }
           ],
           "signatures": [
             {
-              "id": 110,
-              "name": "YakComponent",
+              "id": 3,
+              "name": "ReactComponent",
               "variant": "signature",
               "kind": 4096,
               "flags": {},
               "sources": [
                 {
-                  "fileName": "src/YakComponent.ts",
+                  "fileName": "src/ReactComponent.ts",
                   "line": 4,
                   "character": 13,
-                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/YakComponent.ts#line=4"
+                  "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ReactComponent.ts#line=4"
                 }
               ],
               "parameters": [
                 {
-                  "id": 111,
+                  "id": 4,
                   "name": "props",
                   "variant": "param",
                   "kind": 32768,
                   "flags": {},
                   "type": {
-                    "type": "intrinsic",
-                    "name": "any"
+                    "type": "reference",
+                    "target": {
+                      "sourceFileName": "src/ComponentProps.ts",
+                      "qualifiedName": "ComponentProps"
+                    },
+                    "name": "ComponentProps",
+                    "package": "next-yak-typedoc"
                   }
                 },
                 {
-                  "id": 112,
+                  "id": 5,
                   "name": "deprecatedLegacyContext",
                   "variant": "param",
                   "kind": 32768,
@@ -407,16 +375,16 @@
         {
           "title": "Functions",
           "children": [
-            109
+            2
           ]
         }
       ],
       "sources": [
         {
-          "fileName": "src/YakComponent.ts",
+          "fileName": "src/ReactComponent.ts",
           "line": 1,
           "character": 0,
-          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/YakComponent.ts#line=1"
+          "url": "https://stackblitz.com/~/github.com/jaggli/typedoc-next-yak/src/ReactComponent.ts#line=1"
         }
       ]
     }
@@ -425,7 +393,7 @@
     {
       "title": "Modules",
       "children": [
-        108
+        1
       ]
     }
   ],
@@ -437,57 +405,49 @@
     }
   ],
   "symbolIdMap": {
-    "108": {
-      "sourceFileName": "src/YakComponent.ts",
+    "1": {
+      "sourceFileName": "src/ReactComponent.ts",
       "qualifiedName": ""
     },
-    "109": {
-      "sourceFileName": "src/YakComponent.ts",
-      "qualifiedName": "YakComponent"
+    "2": {
+      "sourceFileName": "src/ReactComponent.ts",
+      "qualifiedName": "ReactComponent"
     },
-    "110": {
+    "3": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
-      "qualifiedName": "YakComponent"
+      "qualifiedName": "ReactComponent"
     },
-    "111": {
+    "4": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
       "qualifiedName": "props"
     },
-    "112": {
+    "5": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
       "qualifiedName": "deprecatedLegacyContext"
     },
-    "113": {
+    "6": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
       "qualifiedName": "React.FunctionComponent.propTypes"
     },
-    "114": {
+    "7": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
       "qualifiedName": "React.FunctionComponent.contextTypes"
     },
-    "115": {
+    "8": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
       "qualifiedName": "React.FunctionComponent.defaultProps"
     },
-    "116": {
+    "9": {
       "sourceFileName": "node_modules/@types/react/index.d.ts",
       "qualifiedName": "React.FunctionComponent.displayName"
-    },
-    "117": {
-      "sourceFileName": "node_modules/next-yak/dist/index.d.ts",
-      "qualifiedName": "__type.[yakComponentSymbol]"
-    },
-    "118": {
-      "sourceFileName": "",
-      "qualifiedName": "__type"
     }
   },
   "files": {
     "entries": {
-      "1": "src/YakComponent.ts"
+      "1": "src/ReactComponent.ts"
     },
     "reflections": {
-      "1": 108
+      "1": 1
     }
   }
 }

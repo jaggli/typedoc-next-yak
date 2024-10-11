@@ -70,6 +70,13 @@ const findChild = (docs, name) => {
   return docs?.children?.find(child => child.name === "Component")?.type
 }
 
+// React component
+const reactDocs = await getTypedoc('ReactComponent.ts');
+const reactFilename = path.resolve(rootDir, "output/react-output.json");
+fs.writeFileSync(reactFilename, JSON.stringify(reactDocs, null, 2));
+console.log("Wrote all react docs to", reactFilename);
+console.log("Type of ReactComponent: \n\n ", findChild(reactDocs, "ReactComponent")?.type, "\n");
+
 // Styled component
 const styledDocs = await getTypedoc('StyledComponent.ts');
 const styledFilename = path.resolve(rootDir, "output/styled-output.json");

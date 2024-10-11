@@ -156,3 +156,5 @@ export type ComponentProps = {
      */
     namedTupleMemberProp: [first: string, second: number];
   };
+
+  export {}
